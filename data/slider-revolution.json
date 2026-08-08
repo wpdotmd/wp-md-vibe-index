@@ -26,5 +26,15 @@
         "codeShare": 54,
         "generatedOn": "2026-08-08",
         "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
-    }
+    },
+    "confidence": "medium",
+    "alternatives": [
+        {
+            "name": "Core Gallery + Swiper",
+            "url": "https://swiperjs.com/",
+            "type": "open-source",
+            "desc": "For a hero slider, Swiper plus a block is usually the whole job."
+        }
+    ],
+    "crossRef": []
 }

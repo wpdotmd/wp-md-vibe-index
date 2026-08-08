@@ -29,5 +29,21 @@
         "codeShare": 40,
         "generatedOn": "2026-08-08",
         "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
-    }
+    },
+    "confidence": "medium",
+    "alternatives": [
+        {
+            "name": "Tutor LMS",
+            "url": "https://wordpress.org/plugins/tutor/",
+            "type": "free-tier",
+            "desc": "Courses, quizzes and a course builder free; monetisation is the paid tier."
+        },
+        {
+            "name": "LearnPress",
+            "url": "https://wordpress.org/plugins/learnpress/",
+            "type": "open-source",
+            "desc": "Full LMS with free core and paid add-ons."
+        }
+    ],
+    "crossRef": []
 }

@@ -28,5 +28,28 @@
         "codeShare": 34,
         "generatedOn": "2026-08-08",
         "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
-    }
+    },
+    "confidence": "medium",
+    "alternatives": [
+        {
+            "name": "Rank Math Free",
+            "url": "https://wordpress.org/plugins/seo-by-rank-math/",
+            "type": "free-tier",
+            "desc": "Nearly all the on-page surface; PRO adds rank tracking and the data pipelines."
+        },
+        {
+            "name": "Slim SEO",
+            "url": "https://wordpress.org/plugins/slim-seo/",
+            "type": "open-source",
+            "desc": "Zero-config SEO that just does the right thing. No settings to get wrong."
+        }
+    ],
+    "crossRef": [
+        {
+            "source": "canivibecodeit.com",
+            "url": "https://canivibecodeit.com/rank-math-pro",
+            "verdict": "yes",
+            "note": "Rated 'yes · one sitting' there. We rate it lower because PRO is rank tracking and keyword data — infrastructure, not code."
+        }
+    ]
 }

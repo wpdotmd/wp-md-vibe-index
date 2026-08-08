@@ -9,6 +9,8 @@ import json, pathlib, re, sys
 ROOT = pathlib.Path(__file__).parent
 TAGS = {"data", "service", "ai", "network", "compliance", "updates", "support", "library"}
 BUILDS = {"sitting", "weekend", "weekends", "months"}
+CONF = {"high", "medium", "low"}
+ALT_TYPES = {"free-tier", "open-source", "alternative"}
 
 def verdict_for(moat):
     if moat <= 33:  return "yes"
@@ -29,7 +31,8 @@ for path in files:
         continue
 
     for field in ("slug", "name", "moat", "moatTags", "verdict", "build",
-                  "upkeepHoursPerYear", "couldBuild", "stillMissing", "requirements"):
+                  "upkeepHoursPerYear", "couldBuild", "stillMissing", "requirements",
+                  "confidence"):
         if field not in rec:
             err(f"missing required field '{field}'")
 
@@ -72,6 +75,29 @@ for path in files:
     for f in ("couldBuild", "stillMissing"):
         if len(str(rec.get(f, ""))) < 20:
             err(f"{f} is too short to be useful")
+
+    if rec.get("confidence") not in CONF:
+        err(f"confidence must be one of {sorted(CONF)}")
+
+    for i, alt in enumerate(rec.get("alternatives") or []):
+        for f in ("name", "url", "type", "desc"):
+            if not alt.get(f):
+                err(f"alternatives[{i}] missing '{f}'")
+        if alt.get("type") and alt["type"] not in ALT_TYPES:
+            err(f"alternatives[{i}] unknown type '{alt['type']}'")
+        if alt.get("url") and not str(alt["url"]).startswith(("http://", "https://")):
+            err(f"alternatives[{i}] url must be absolute")
+        if len(str(alt.get("desc", ""))) < 15:
+            err(f"alternatives[{i}] desc is too short to help anyone")
+    if len(rec.get("alternatives") or []) > 6:
+        err("at most 6 alternatives — this is a shortlist, not a directory")
+
+    for i, x in enumerate(rec.get("crossRef") or []):
+        for f in ("source", "url", "verdict", "note"):
+            if not x.get(f):
+                err(f"crossRef[{i}] missing '{f}'")
+        if len(str(x.get("note", ""))) < 20:
+            err(f"crossRef[{i}] note must explain the agreement or disagreement")
 
     if rec.get("reviewedOn") and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", rec["reviewedOn"]):
         err("reviewedOn must be YYYY-MM-DD")

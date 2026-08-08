@@ -78,6 +78,39 @@ does not attend your incident or notice that a gateway deprecated an endpoint.
 So the site's money model counts **maintenance only** and assumes the build is
 free — which is close enough now to be the honest simplification.
 
+## Confidence
+
+`confidence` is `high`, `medium` or `low`, and it describes the **moat score**,
+not the product.
+
+- `high` — the structure is obvious. Wordfence is its threat feed; NitroPack is
+  its edge network. Hard to argue the other way.
+- `medium` — reasonable, arguable. Most records.
+- `low` — genuinely uncertain, usually because the score is a *relative*
+  placement among near-identical products. Every page builder is `low`; there
+  is no principled reason Bricks is 52 and Beaver Builder is 55.
+
+A `low` score is not a defect. Publishing a number with false certainty is.
+
+## Alternatives
+
+Up to six free or open-source options that already do the job, each with a type:
+
+- `free-tier` — the free version of the same product. For WordPress this is
+  very often the honest answer, and saying so costs us nothing.
+- `open-source` — a different product, free forever.
+- `alternative` — a competitor's free tier.
+
+They have to be finished, installable, actually free, and replace the *core
+job*. A half-abandoned repo is not an alternative.
+
+## Cross-references
+
+Where another public index rates the same product, `crossRef` records their
+verdict, a link, and — the important part — **why we differ**. Agreement is
+recorded too; a cross-reference that only ever appears when we disagree is
+just point-scoring.
+
 ## The money model
 
 Annual, and per site:

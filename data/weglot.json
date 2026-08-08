@@ -28,5 +28,28 @@
         "codeShare": 10,
         "generatedOn": "2026-08-08",
         "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
-    }
+    },
+    "confidence": "high",
+    "alternatives": [
+        {
+            "name": "TranslatePress Free",
+            "url": "https://wordpress.org/plugins/translatepress-multilingual/",
+            "type": "free-tier",
+            "desc": "One extra language free, translated by hand rather than machine."
+        },
+        {
+            "name": "Polylang",
+            "url": "https://wordpress.org/plugins/polylang/",
+            "type": "free-tier",
+            "desc": "Unlimited languages, manual translation, no hosted service."
+        }
+    ],
+    "crossRef": [
+        {
+            "source": "canivibecodeit.com",
+            "url": "https://canivibecodeit.com/weglot",
+            "verdict": "no",
+            "note": "Rated 'no' with high confidence there. We agree — it's a hosted service wearing a plugin."
+        }
+    ]
 }

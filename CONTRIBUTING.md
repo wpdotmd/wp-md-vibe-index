@@ -26,6 +26,9 @@ the premium ranking — if it doesn't, the record is ignored.
 | `couldBuild` | One or two sentences: what an agent genuinely gets you. |
 | `stillMissing` | One or two sentences: what you'd *not* have the day after. This is the most valuable field in the file. |
 | `requirements` | 3–6 concrete bullets. They become the generated starter prompt, so write them as things you'd actually ask for. |
+| `confidence` | `high` \| `medium` \| `low`. How sure the moat score is. Use `low` freely — a low-confidence score is more useful than a falsely certain one. |
+| `alternatives` | Up to 6 free/OSS options that already do the job. Must be finished, installable, actually free, and genuinely replace the core job. For WordPress the honest answer is often the plugin's own free tier — say so. |
+| `crossRef` | How other public indexes rate the same product. Include the disagreement *and why*, not just the link. |
 | `notes` | Optional. Anything a reader should know that doesn't fit above. |
 | `reviewedOn` | Set to today when you materially change a judgement. |
 

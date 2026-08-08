@@ -28,5 +28,21 @@
         "codeShare": 56,
         "generatedOn": "2026-08-08",
         "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
-    }
+    },
+    "confidence": "high",
+    "alternatives": [
+        {
+            "name": "LiteSpeed Cache",
+            "url": "https://wordpress.org/plugins/litespeed-cache/",
+            "type": "open-source",
+            "desc": "Free and arguably more capable — if you're on LiteSpeed hosting."
+        },
+        {
+            "name": "Cache Enabler",
+            "url": "https://wordpress.org/plugins/cache-enabler/",
+            "type": "open-source",
+            "desc": "Minimal, reliable page caching with almost nothing to misconfigure."
+        }
+    ],
+    "crossRef": []
 }
