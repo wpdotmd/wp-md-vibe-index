@@ -1,0 +1,32 @@
+{
+    "slug": "wp-rocket",
+    "name": "WP Rocket",
+    "moat": 44,
+    "moatTags": [
+        "updates",
+        "support",
+        "service"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 36,
+    "couldBuild": "Page cache, minification, lazy-loading, preloading. All documented technique.",
+    "stillMissing": "The reason people pay is that it does not break checkout. Those exclusion rules are years of bug reports, and RocketCDN is a rented service.",
+    "requirements": [
+        "Page cache with correct bypass for cart, checkout, account and logged-in users",
+        "CSS/JS minification and combination with a safe exclusion list",
+        "Lazy-loading for images and iframes, with LCP image excluded",
+        "Cache preloading from the sitemap",
+        "Automatic purge on content, menu and product changes"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $59/yr",
+        "priceYearly": 59,
+        "liveSites": 2113033,
+        "codeShare": 56,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

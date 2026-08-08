@@ -1,0 +1,29 @@
+{
+    "slug": "kadence-blocks",
+    "name": "Kadence Blocks",
+    "moat": 34,
+    "moatTags": [
+        "library",
+        "updates"
+    ],
+    "verdict": "kinda",
+    "build": "sitting",
+    "upkeepHoursPerYear": 20,
+    "couldBuild": "Custom blocks with good controls — very reproducible individually.",
+    "stillMissing": "The pattern/starter library and the design system consistency across every block.",
+    "requirements": [
+        "A small set of custom blocks with proper block.json and editor controls",
+        "Responsive spacing/typography controls that output tidy CSS",
+        "Block patterns for the layouts you actually reuse"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "",
+        "priceYearly": 0,
+        "liveSites": 637092,
+        "codeShare": 66,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

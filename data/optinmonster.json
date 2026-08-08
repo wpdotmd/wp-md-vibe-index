@@ -1,0 +1,32 @@
+{
+    "slug": "optinmonster",
+    "name": "OptinMonster",
+    "moat": 80,
+    "moatTags": [
+        "service",
+        "data",
+        "ai"
+    ],
+    "verdict": "never",
+    "build": "sitting",
+    "upkeepHoursPerYear": 14,
+    "couldBuild": "Popups, slide-ins and an exit-intent trigger. Genuinely a weekend.",
+    "stillMissing": "Campaigns, A/B splits, targeting rules and the analytics behind them all run on their infrastructure. The plugin is a loader.",
+    "requirements": [
+        "Popup, slide-in, floating bar and inline campaign types with a visual editor",
+        "Display rules: exit intent, scroll depth, time on page, referrer, device",
+        "A/B split testing with per-variant impression and conversion counters",
+        "Email-provider integrations via a pluggable adapter (start with one)",
+        "A results dashboard with conversion rate per campaign"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $9/mo",
+        "priceYearly": 108,
+        "liveSites": 66452,
+        "codeShare": 20,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

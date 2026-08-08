@@ -1,0 +1,31 @@
+{
+    "slug": "translatepress",
+    "name": "TranslatePress",
+    "moat": 52,
+    "moatTags": [
+        "service",
+        "ai",
+        "network"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 28,
+    "couldBuild": "A visual string editor storing translations per language.",
+    "stillMissing": "Automatic translation means a DeepL or Google bill, and SEO-correct multilingual routing is fiddlier than it looks.",
+    "requirements": [
+        "Visual front-end translation editor storing strings per language",
+        "Machine-translation backend behind an interface, with caching",
+        "Per-language URLs plus correct hreflang and canonical output",
+        "Translate gettext strings, post content and meta consistently"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from €89/yr",
+        "priceYearly": 89,
+        "liveSites": 360602,
+        "codeShare": 48,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

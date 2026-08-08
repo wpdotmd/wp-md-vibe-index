@@ -1,0 +1,31 @@
+{
+    "slug": "beaver-builder",
+    "name": "Beaver Builder",
+    "moat": 55,
+    "moatTags": [
+        "library",
+        "support",
+        "updates"
+    ],
+    "verdict": "kinda",
+    "build": "weekends",
+    "upkeepHoursPerYear": 40,
+    "couldBuild": "Row/column layout with inline editing.",
+    "stillMissing": "Its reputation is stability across a decade of themes. That is accumulated bug-fixing, and it does not transfer.",
+    "requirements": [
+        "Row/column layout with inline front-end editing",
+        "A module API so new modules are drop-in",
+        "Saved rows and templates reusable across the site",
+        "Clean uninstall that leaves readable content behind"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $99/yr",
+        "priceYearly": 99,
+        "liveSites": 246023,
+        "codeShare": 45,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

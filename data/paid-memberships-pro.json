@@ -1,0 +1,31 @@
+{
+    "slug": "paid-memberships-pro",
+    "name": "Paid Memberships Pro",
+    "moat": 58,
+    "moatTags": [
+        "network",
+        "compliance",
+        "updates"
+    ],
+    "verdict": "no",
+    "build": "weekend",
+    "upkeepHoursPerYear": 36,
+    "couldBuild": "Levels, content restriction and a checkout flow.",
+    "stillMissing": "Recurring billing, dunning, proration and tax. Same trap as subscriptions: the money path is unforgiving.",
+    "requirements": [
+        "Membership levels with content restriction by post, term and page",
+        "Checkout with recurring billing through one gateway",
+        "Member account area: invoices, cancel, change level",
+        "Expiration, renewal reminders and grace periods"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "",
+        "priceYearly": 0,
+        "liveSites": 49215,
+        "codeShare": 42,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

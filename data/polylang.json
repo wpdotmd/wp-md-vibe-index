@@ -1,0 +1,31 @@
+{
+    "slug": "polylang",
+    "name": "Polylang",
+    "moat": 40,
+    "moatTags": [
+        "updates",
+        "support",
+        "network"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 26,
+    "couldBuild": "Language taxonomy, per-post translation links, a switcher.",
+    "stillMissing": "Pro is mostly duplication tooling and WooCommerce/ACF compatibility — code, but a lot of it, against moving targets.",
+    "requirements": [
+        "Language taxonomy with translation links between posts and terms",
+        "Language switcher widget and menu item",
+        "Post duplication to start a translation from the source",
+        "Media and menu translation handled sanely"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "Pro from €99/yr",
+        "priceYearly": 99,
+        "liveSites": 29413,
+        "codeShare": 60,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

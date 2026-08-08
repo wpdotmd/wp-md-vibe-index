@@ -1,0 +1,30 @@
+{
+    "slug": "perfmatters",
+    "name": "Perfmatters",
+    "moat": 26,
+    "moatTags": [
+        "updates",
+        "support"
+    ],
+    "verdict": "yes",
+    "build": "sitting",
+    "upkeepHoursPerYear": 10,
+    "couldBuild": "Script manager, disable-what-you-do-not-need toggles, a handful of tuned defaults.",
+    "stillMissing": "Honestly not much. This is one of the most genuinely reproducible products on the list — you are buying curation and time saved.",
+    "requirements": [
+        "Script manager to disable specific scripts per page or post type",
+        "Toggles for the usual core bloat: emojis, embeds, dashicons, XML-RPC, heartbeat",
+        "Preload, prefetch and preconnect controls",
+        "Lazy-loading with an exclusion list for above-the-fold images"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $25/yr",
+        "priceYearly": 25,
+        "liveSites": 94141,
+        "codeShare": 74,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

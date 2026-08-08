@@ -1,0 +1,32 @@
+{
+    "slug": "bookly",
+    "name": "Bookly",
+    "moat": 48,
+    "moatTags": [
+        "network",
+        "updates",
+        "library"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 30,
+    "couldBuild": "Availability, slots, a booking form and confirmation email.",
+    "stillMissing": "Timezones, buffers, staff calendars, deposits and two-way calendar sync are where booking systems actually get hard.",
+    "requirements": [
+        "Services, staff and availability rules with buffers and breaks",
+        "Multi-step booking form with timezone-correct slot rendering",
+        "Deposit or full payment at booking through one gateway",
+        "Confirmation, reminder and cancellation emails",
+        "Two-way Google Calendar sync"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "$199",
+        "priceYearly": 0,
+        "liveSites": 51314,
+        "codeShare": 52,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

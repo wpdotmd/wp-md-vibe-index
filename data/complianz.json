@@ -1,0 +1,32 @@
+{
+    "slug": "complianz",
+    "name": "Complianz",
+    "moat": 78,
+    "moatTags": [
+        "compliance",
+        "data",
+        "updates"
+    ],
+    "verdict": "never",
+    "build": "weekend",
+    "upkeepHoursPerYear": 36,
+    "couldBuild": "A consent banner that blocks scripts until someone clicks.",
+    "stillMissing": "What you are paying for is a legal team tracking GDPR, ePrivacy, CCPA and friends across jurisdictions and rewriting the generated policy when the rules move.",
+    "requirements": [
+        "Consent banner with granular categories, blocking scripts until opt-in",
+        "A wizard producing a cookie policy from the services actually detected on the site",
+        "Consent logging with proof-of-consent records and a withdrawal flow",
+        "Region detection so the banner behaves per jurisdiction",
+        "Automatic re-scan for newly added third-party scripts"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from €49/yr",
+        "priceYearly": 49,
+        "liveSites": 1486979,
+        "codeShare": 22,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

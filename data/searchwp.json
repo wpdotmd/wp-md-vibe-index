@@ -1,0 +1,30 @@
+{
+    "slug": "searchwp",
+    "name": "SearchWP",
+    "moat": 32,
+    "moatTags": [
+        "updates",
+        "network"
+    ],
+    "verdict": "yes",
+    "build": "sitting",
+    "upkeepHoursPerYear": 20,
+    "couldBuild": "A custom index with weighted fields and stemming. Well-documented territory.",
+    "stillMissing": "Relevance tuning across custom fields, PDFs and taxonomies is finicky, and index rebuilds at scale bite.",
+    "requirements": [
+        "Custom index across post content, meta, taxonomies and file text",
+        "Per-source weighting with stemming and partial matching",
+        "Background index building that survives large catalogues",
+        "Search analytics: queries, no-result queries, click-through"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $99/yr",
+        "priceYearly": 99,
+        "liveSites": 39392,
+        "codeShare": 68,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

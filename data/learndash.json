@@ -1,0 +1,33 @@
+{
+    "slug": "learndash",
+    "name": "LearnDash",
+    "moat": 60,
+    "moatTags": [
+        "network",
+        "compliance",
+        "updates",
+        "support"
+    ],
+    "verdict": "no",
+    "build": "weekends",
+    "upkeepHoursPerYear": 36,
+    "couldBuild": "Courses, lessons, quizzes and progress tracking — a clean data model.",
+    "stillMissing": "Then SCORM/xAPI, certificates, gradebooks, group licensing and the payment integrations schools actually require.",
+    "requirements": [
+        "Course → lesson → topic hierarchy with drip scheduling and prerequisites",
+        "Quiz engine with several question types, attempt limits and pass marks",
+        "Progress tracking, certificates and a gradebook",
+        "Group/cohort enrolment with a group leader role",
+        "Payment-gated enrolment via one gateway"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $199/yr",
+        "priceYearly": 199,
+        "liveSites": 51550,
+        "codeShare": 40,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

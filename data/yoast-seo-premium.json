@@ -1,0 +1,33 @@
+{
+    "slug": "yoast-seo-premium",
+    "name": "Yoast SEO Premium",
+    "moat": 60,
+    "moatTags": [
+        "ai",
+        "data",
+        "support",
+        "updates"
+    ],
+    "verdict": "no",
+    "build": "weekend",
+    "upkeepHoursPerYear": 24,
+    "couldBuild": "Readability and keyphrase analysis, redirects, internal-link suggestions.",
+    "stillMissing": "The AI title/meta generation is their inference bill, the Semrush keyword data is a licence, and the language analysis covers languages you would not build for.",
+    "requirements": [
+        "Title and meta templating with variables, plus social previews",
+        "Readability and keyphrase analysis with actionable checks",
+        "Redirect manager that catches slug changes automatically",
+        "Internal-link suggestions based on site content similarity",
+        "Breadcrumbs and a schema graph that validates"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "$99/yr",
+        "priceYearly": 99,
+        "liveSites": 10700668,
+        "codeShare": 40,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

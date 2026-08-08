@@ -1,0 +1,32 @@
+{
+    "slug": "wordfence",
+    "name": "Wordfence",
+    "moat": 88,
+    "moatTags": [
+        "data",
+        "updates",
+        "support"
+    ],
+    "verdict": "never",
+    "build": "weekend",
+    "upkeepHoursPerYear": 52,
+    "couldBuild": "A firewall that inspects requests and a scanner that diffs core files against checksums.",
+    "stillMissing": "The whole point is the real-time threat feed — the rules that landed this week for the vulnerability disclosed this week. That is a research team, not a repository.",
+    "requirements": [
+        "Request firewall with rules for SQLi, XSS and traversal patterns, running before plugins load",
+        "File-integrity scanner diffing core, theme and plugin files against wordpress.org checksums",
+        "Login hardening: rate limiting, 2FA, and blocking of known-bad usernames",
+        "A live activity log with IP blocking and country rules",
+        "Email alerting on scan findings"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "Premium $119/yr",
+        "priceYearly": 119,
+        "liveSites": 473652,
+        "codeShare": 12,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

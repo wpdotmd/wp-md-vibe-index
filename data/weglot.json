@@ -1,0 +1,32 @@
+{
+    "slug": "weglot",
+    "name": "Weglot",
+    "moat": 90,
+    "moatTags": [
+        "service",
+        "data",
+        "network"
+    ],
+    "verdict": "never",
+    "build": "weekend",
+    "upkeepHoursPerYear": 24,
+    "couldBuild": "String extraction, a language switcher and a translation table.",
+    "stillMissing": "The product is hosted translation plus per-language subdomains they serve and index. You would be rebuilding the switcher and then paying a translation API anyway.",
+    "requirements": [
+        "Extract translatable strings from rendered output and store them per language",
+        "Language switcher with hreflang tags and per-language URLs (subdirectory)",
+        "Pluggable machine-translation backend (DeepL or Google) with a local cache",
+        "A translation editor in the admin for correcting machine output",
+        "Correct canonical/hreflang handling so the alternates actually index"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from €15/mo",
+        "priceYearly": 180,
+        "liveSites": 110237,
+        "codeShare": 10,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

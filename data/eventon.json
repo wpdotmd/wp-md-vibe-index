@@ -1,0 +1,29 @@
+{
+    "slug": "eventon",
+    "name": "EventOn",
+    "moat": 42,
+    "moatTags": [
+        "library",
+        "updates"
+    ],
+    "verdict": "kinda",
+    "build": "sitting",
+    "upkeepHoursPerYear": 20,
+    "couldBuild": "An event calendar with filtering and a tidy front end.",
+    "stillMissing": "The add-on catalogue is the business; the calendar itself is very buildable.",
+    "requirements": [
+        "Event calendar with month/list views and smooth filtering",
+        "Event types, locations and organisers",
+        "Repeat events and a tidy responsive front end"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "$50",
+        "priceYearly": 0,
+        "liveSites": 28372,
+        "codeShare": 58,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

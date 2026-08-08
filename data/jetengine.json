@@ -1,0 +1,31 @@
+{
+    "slug": "jetengine",
+    "name": "JetEngine",
+    "moat": 50,
+    "moatTags": [
+        "network",
+        "library",
+        "updates"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 40,
+    "couldBuild": "Custom post types, fields and a query-driven listing renderer.",
+    "stillMissing": "It is glue between a dozen builders and data sources; each connection is a maintenance contract with someone else's API.",
+    "requirements": [
+        "UI for registering post types, taxonomies and meta fields",
+        "Query builder with a listing renderer bound to those queries",
+        "Relations between post types, with front-end filtering",
+        "Dynamic-data tags usable inside at least one page builder"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $43/yr",
+        "priceYearly": 43,
+        "liveSites": 357647,
+        "codeShare": 50,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

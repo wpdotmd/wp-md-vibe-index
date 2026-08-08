@@ -1,0 +1,29 @@
+{
+    "slug": "essential-grid",
+    "name": "Essential Grid",
+    "moat": 40,
+    "moatTags": [
+        "library",
+        "updates"
+    ],
+    "verdict": "kinda",
+    "build": "sitting",
+    "upkeepHoursPerYear": 18,
+    "couldBuild": "A filterable, responsive grid over any post type.",
+    "stillMissing": "Skins and source integrations. The grid maths is not the hard part.",
+    "requirements": [
+        "Filterable, sortable responsive grid over any post type",
+        "Skin system so item layout is templated",
+        "Lightbox and lazy-loading"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "$34",
+        "priceYearly": 0,
+        "liveSites": 150528,
+        "codeShare": 60,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

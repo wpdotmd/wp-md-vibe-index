@@ -1,0 +1,31 @@
+{
+    "slug": "oxygen-builder",
+    "name": "Oxygen Builder",
+    "moat": 50,
+    "moatTags": [
+        "library",
+        "updates",
+        "support"
+    ],
+    "verdict": "kinda",
+    "build": "weekends",
+    "upkeepHoursPerYear": 48,
+    "couldBuild": "A structure panel over raw elements with full CSS control.",
+    "stillMissing": "It replaces the theme layer entirely, so every edge case in WordPress templating becomes yours to own.",
+    "requirements": [
+        "Full template replacement — take over the theme layer entirely",
+        "Structure panel over raw elements with complete CSS control",
+        "Reusable parts and a global stylesheet system",
+        "Dynamic data binding for any post type or custom field"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "",
+        "priceYearly": 0,
+        "liveSites": 100900,
+        "codeShare": 50,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

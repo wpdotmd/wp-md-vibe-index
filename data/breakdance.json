@@ -1,0 +1,31 @@
+{
+    "slug": "breakdance",
+    "name": "Breakdance",
+    "moat": 50,
+    "moatTags": [
+        "library",
+        "network",
+        "updates"
+    ],
+    "verdict": "kinda",
+    "build": "weekends",
+    "upkeepHoursPerYear": 44,
+    "couldBuild": "A modern builder canvas with a form and popup layer.",
+    "stillMissing": "The 130+ prebuilt elements and integrations are the actual deliverable.",
+    "requirements": [
+        "Builder canvas with a large element set including forms and popups",
+        "Global styles and design tokens applied site-wide",
+        "Conditional display rules per element",
+        "A handful of third-party integrations (forms, CRM)"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $100/yr",
+        "priceYearly": 100,
+        "liveSites": 60484,
+        "codeShare": 50,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "slug": "slider-revolution",
+    "name": "Slider Revolution",
+    "moat": 46,
+    "moatTags": [
+        "library",
+        "updates"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 26,
+    "couldBuild": "A keyframe animation engine over layered slides.",
+    "stillMissing": "The 250+ templates are the product. One slider is a weekend; a template library is a studio.",
+    "requirements": [
+        "Layer-based slide editor with keyframe animation and easing",
+        "Responsive layer positioning per breakpoint",
+        "Video and dynamic (post-driven) slides",
+        "Accessible controls: keyboard, pause, reduced-motion respect"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "$39",
+        "priceYearly": 0,
+        "liveSites": 3204251,
+        "codeShare": 54,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

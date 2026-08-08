@@ -1,0 +1,30 @@
+{
+    "slug": "amelia",
+    "name": "Amelia",
+    "moat": 48,
+    "moatTags": [
+        "network",
+        "updates"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 30,
+    "couldBuild": "Appointment and event booking over a resource model.",
+    "stillMissing": "Google/Outlook sync, payment capture and recurring appointments — integration work, endlessly.",
+    "requirements": [
+        "Appointments and events over a shared resource model",
+        "Employee schedules, day-off handling and capacity limits",
+        "Customer panel for rescheduling and cancelling",
+        "Calendar sync and payment capture"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "",
+        "priceYearly": 0,
+        "liveSites": 50594,
+        "codeShare": 52,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

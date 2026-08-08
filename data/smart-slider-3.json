@@ -1,0 +1,29 @@
+{
+    "slug": "smart-slider-3",
+    "name": "Smart Slider 3",
+    "moat": 42,
+    "moatTags": [
+        "library",
+        "updates"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 22,
+    "couldBuild": "Responsive slides with a layer editor.",
+    "stillMissing": "Same story — the template catalogue and the editor polish, not the transitions.",
+    "requirements": [
+        "Slide editor with layers, per-device visibility and transitions",
+        "Dynamic slides from posts or products",
+        "Lazy-loading and correct LCP handling for the first slide"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "$49",
+        "priceYearly": 0,
+        "liveSites": 499690,
+        "codeShare": 58,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

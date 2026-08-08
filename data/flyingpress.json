@@ -1,0 +1,30 @@
+{
+    "slug": "flyingpress",
+    "name": "FlyingPress",
+    "moat": 40,
+    "moatTags": [
+        "updates",
+        "service"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 32,
+    "couldBuild": "The same caching and asset-optimisation surface.",
+    "stillMissing": "Correct cache invalidation for logged-in, cart and dynamic states is where DIY caching dies.",
+    "requirements": [
+        "Full-page cache with per-role and per-cookie variation",
+        "Critical CSS generation and unused-CSS removal",
+        "Font optimisation with preload and swap",
+        "Cache warm-up crawler"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $60/yr",
+        "priceYearly": 60,
+        "liveSites": 60413,
+        "codeShare": 60,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

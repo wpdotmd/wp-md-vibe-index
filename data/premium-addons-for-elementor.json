@@ -1,0 +1,29 @@
+{
+    "slug": "premium-addons-for-elementor",
+    "name": "Premium Addons for Elementor",
+    "moat": 30,
+    "moatTags": [
+        "updates",
+        "library"
+    ],
+    "verdict": "yes",
+    "build": "sitting",
+    "upkeepHoursPerYear": 22,
+    "couldBuild": "Same shape: a widget library over Elementor's API.",
+    "stillMissing": "Breadth plus staying compatible when Elementor moves.",
+    "requirements": [
+        "Same approach: build the specific widgets you need, not a library",
+        "Correct Elementor controls, responsive settings and style tabs",
+        "Dynamic-data support so the widgets work inside query loops"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "Pro from $39/yr",
+        "priceYearly": 39,
+        "liveSites": 512703,
+        "codeShare": 70,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "slug": "gravity-forms",
+    "name": "Gravity Forms",
+    "moat": 52,
+    "moatTags": [
+        "network",
+        "updates",
+        "support"
+    ],
+    "verdict": "kinda",
+    "build": "sitting",
+    "upkeepHoursPerYear": 36,
+    "couldBuild": "A form builder with conditional logic and entry storage. Very tractable.",
+    "stillMissing": "Its value is the add-on wall: payment gateways, CRMs, webhooks, e-signatures — each one maintained against a third party that keeps changing.",
+    "requirements": [
+        "Form builder with conditional logic on fields, sections and notifications",
+        "Entry storage, search, export and per-entry notes",
+        "Multi-page forms with save-and-continue",
+        "An add-on API so integrations are pluggable",
+        "Spam defence and file-upload handling that is actually safe"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $59/yr",
+        "priceYearly": 59,
+        "liveSites": 836991,
+        "codeShare": 48,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

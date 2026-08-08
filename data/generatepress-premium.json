@@ -1,0 +1,30 @@
+{
+    "slug": "generatepress-premium",
+    "name": "GeneratePress Premium",
+    "moat": 30,
+    "moatTags": [
+        "library",
+        "support",
+        "updates"
+    ],
+    "verdict": "yes",
+    "build": "sitting",
+    "upkeepHoursPerYear": 16,
+    "couldBuild": "A hooks-and-filters module layer over a lean theme.",
+    "stillMissing": "Mostly you are buying restraint and the site library. Classic one-shot territory otherwise.",
+    "requirements": [
+        "A lean parent theme with hooks at every meaningful position",
+        "Modules for header, navigation, typography and colours behind a settings UI",
+        "Element system for injecting content at hooks with display conditions"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $59/yr",
+        "priceYearly": 59,
+        "liveSites": 259471,
+        "codeShare": 70,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

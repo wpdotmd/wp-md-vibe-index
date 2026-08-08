@@ -1,0 +1,32 @@
+{
+    "slug": "the-events-calendar",
+    "name": "The Events Calendar",
+    "moat": 55,
+    "moatTags": [
+        "network",
+        "library",
+        "updates"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 30,
+    "couldBuild": "A calendar UI over a custom post type with recurrence rules.",
+    "stillMissing": "Recurring events are a genuinely nasty problem, and Pro is really the ticketing, import and venue integrations around it.",
+    "requirements": [
+        "Event post type with venue and organiser relationships",
+        "Month, list and day views with timezone-correct rendering",
+        "Recurring events with exceptions — get the RRULE handling right",
+        "iCal feed and Google Calendar export",
+        "Filtering by category, venue and date range"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "Pro from $99/yr",
+        "priceYearly": 99,
+        "liveSites": 489314,
+        "codeShare": 45,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

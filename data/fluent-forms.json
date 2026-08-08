@@ -1,0 +1,29 @@
+{
+    "slug": "fluent-forms",
+    "name": "Fluent Forms",
+    "moat": 45,
+    "moatTags": [
+        "network",
+        "updates"
+    ],
+    "verdict": "kinda",
+    "build": "sitting",
+    "upkeepHoursPerYear": 28,
+    "couldBuild": "Same shape as any form builder, and a fast one.",
+    "stillMissing": "Payments and CRM integrations again — plus the performance work that made it worth switching to.",
+    "requirements": [
+        "Form builder with conditional logic and a fast, non-blocking front end",
+        "Entry management with filtering and export",
+        "Payment and CRM integration through an adapter interface"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "Pro from $59/yr",
+        "priceYearly": 59,
+        "liveSites": 415924,
+        "codeShare": 55,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

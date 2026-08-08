@@ -1,0 +1,31 @@
+{
+    "slug": "borlabs-cookie",
+    "name": "Borlabs Cookie",
+    "moat": 74,
+    "moatTags": [
+        "compliance",
+        "data",
+        "updates"
+    ],
+    "verdict": "no",
+    "build": "sitting",
+    "upkeepHoursPerYear": 28,
+    "couldBuild": "Consent storage, script blocking and a per-service opt-in UI.",
+    "stillMissing": "The service blocklist and the consent copy have to stay correct in German law specifically. Getting that wrong is a fine, not a bug.",
+    "requirements": [
+        "Per-service consent with script blocking and content blockers for embeds",
+        "Configurable banner layouts with an accessible focus trap",
+        "Consent storage with versioning so policy changes re-prompt",
+        "A service library covering the common analytics and marketing tags"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from €39/yr",
+        "priceYearly": 39,
+        "liveSites": 277657,
+        "codeShare": 26,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "slug": "wpbakery",
+    "name": "WPBakery",
+    "moat": 50,
+    "moatTags": [
+        "library",
+        "network",
+        "updates"
+    ],
+    "verdict": "kinda",
+    "build": "weekends",
+    "upkeepHoursPerYear": 40,
+    "couldBuild": "Shortcode-driven layout building.",
+    "stillMissing": "Mostly it survives because thousands of themes ship it and expect its exact shortcodes. You cannot vibe-code an installed base.",
+    "requirements": [
+        "Shortcode-based layout with a back-end and front-end editor",
+        "An element registration API with parameter types",
+        "Template library with import/export"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "$99",
+        "priceYearly": 0,
+        "liveSites": 2246882,
+        "codeShare": 50,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

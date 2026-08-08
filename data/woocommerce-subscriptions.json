@@ -1,0 +1,33 @@
+{
+    "slug": "woocommerce-subscriptions",
+    "name": "WooCommerce Subscriptions",
+    "moat": 72,
+    "moatTags": [
+        "network",
+        "compliance",
+        "updates",
+        "support"
+    ],
+    "verdict": "no",
+    "build": "weekends",
+    "upkeepHoursPerYear": 45,
+    "couldBuild": "A scheduled job that recharges a stored payment token every month.",
+    "stillMissing": "Then: failed-payment retries, proration, gateway tokenisation quirks, SCA, mid-cycle upgrades, tax across borders. Every one of those is somebody's revenue.",
+    "requirements": [
+        "Subscription product type with billing interval, trial and sign-up fee",
+        "Scheduled renewal orders that charge a stored payment token",
+        "Failed-payment retry ladder with customer emails and automatic suspension",
+        "Customer-facing pause, cancel, upgrade and downgrade with proration",
+        "Admin views for upcoming renewals and subscription lifecycle events"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "$199/yr",
+        "priceYearly": 199,
+        "liveSites": 36864,
+        "codeShare": 28,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

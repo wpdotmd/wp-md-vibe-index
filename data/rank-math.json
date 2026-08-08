@@ -1,0 +1,32 @@
+{
+    "slug": "rank-math",
+    "name": "Rank Math",
+    "moat": 66,
+    "moatTags": [
+        "data",
+        "ai",
+        "network"
+    ],
+    "verdict": "no",
+    "build": "weekend",
+    "upkeepHoursPerYear": 26,
+    "couldBuild": "Meta boxes, sitemaps, schema output, redirects. All of it well-understood.",
+    "stillMissing": "Pro is rank tracking, keyword data and Search Console/Analytics pipelines. That is infrastructure running whether you are looking or not.",
+    "requirements": [
+        "Per-post SEO meta box: title, description, canonical, robots, social previews",
+        "XML sitemaps split by type with correct lastmod",
+        "Schema output for article, product, FAQ, breadcrumb and organisation",
+        "Redirect manager with 404 logging",
+        "On-page content analysis against a target keyphrase"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "PRO from $84/yr",
+        "priceYearly": 84,
+        "liveSites": 3112342,
+        "codeShare": 34,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

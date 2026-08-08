@@ -1,0 +1,31 @@
+{
+    "slug": "wpforms",
+    "name": "WPForms",
+    "moat": 48,
+    "moatTags": [
+        "network",
+        "ai",
+        "support"
+    ],
+    "verdict": "kinda",
+    "build": "sitting",
+    "upkeepHoursPerYear": 32,
+    "couldBuild": "Drag-and-drop fields, validation, notifications, entry export.",
+    "stillMissing": "Stripe/PayPal/Square handling, spam defence and the integration catalogue. The builder is the cheap half.",
+    "requirements": [
+        "Drag-and-drop fields with validation and conditional logic",
+        "Entries with export, plus notification and confirmation routing",
+        "One payment gateway with a proper webhook flow",
+        "Spam protection that does not rely on a visible captcha"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $50/yr",
+        "priceYearly": 50,
+        "liveSites": 1538944,
+        "codeShare": 52,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}

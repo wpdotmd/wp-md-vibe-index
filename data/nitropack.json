@@ -1,0 +1,31 @@
+{
+    "slug": "nitropack",
+    "name": "NitroPack",
+    "moat": 92,
+    "moatTags": [
+        "service",
+        "updates"
+    ],
+    "verdict": "never",
+    "build": "sitting",
+    "upkeepHoursPerYear": 20,
+    "couldBuild": "A caching plugin that stores rendered HTML and serves it early.",
+    "stillMissing": "NitroPack is not really a plugin — it is their edge network doing the optimisation and serving the result. The plugin is a client for it. Rebuild the client and you have an empty pipe.",
+    "requirements": [
+        "Full-page HTML caching with separate cache buckets for logged-in users, cart and checkout",
+        "Critical CSS extraction per template, with the rest deferred",
+        "Image lazy-loading plus WebP/AVIF conversion on upload",
+        "Cache invalidation on post save, comment, term change and WooCommerce stock updates",
+        "A purge-all admin action and WP-CLI command"
+    ],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $21/mo",
+        "priceYearly": 252,
+        "liveSites": 114987,
+        "codeShare": 8,
+        "generatedOn": "2026-08-08",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
+}
