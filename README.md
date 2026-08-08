@@ -68,6 +68,37 @@ appear in a labelled rail and have no influence on any score in this repo. If a
 score ever looks bought, open an issue — that accusation should be cheap to make
 and easy to check, which is most of the point of this repo existing.
 
+## Prior art & credit
+
+This index exists because of **[canivibecodeit.com](https://canivibecodeit.com/)**
+by [Rob Hallam](https://github.com/canivibecodeit/canivibecodeit) ([MIT](https://github.com/canivibecodeit/canivibecodeit/blob/main/LICENSE)).
+That project worked out the shape of this idea first, and three things here are
+straightforwardly borrowed from it:
+
+- **one JSON record per item, in public, with the pull request as the whole
+  interface** — no forms, no accounts, no admin
+- **a verdict as a small vocabulary** rather than a score nobody can read
+- **shipping the actual prompt**, on the grounds that a page telling you
+  something is buildable without telling you how is just an opinion
+
+No code or data was copied — the schema, the scoring model and every record here
+are our own — so nothing in the MIT licence is triggered. The credit is here
+because it's deserved, not because it's required.
+
+**Where this deliberately diverges.** canivibecodeit asks a binary question of
+SaaS apps: can AI replace this. For WordPress plugins that question is the wrong
+shape, because a premium licence is rarely paying for source code alone. So
+instead of a yes/no we score the **split** — the share that is code, and the
+share that is somebody running a data feed, a server, a legal review or an
+integration matrix. The verdict is then derived from that number rather than
+typed by hand, so the two can never drift apart. Our money model also counts
+maintenance instead of build time, because with a 2026 coding agent the build
+has stopped being the expensive part.
+
+Different question, different answers, same conviction: the reasoning should be
+public and arguable.
+
 ## Licence
 
-Data is [CC BY 4.0](LICENSE) — use it, just say where it came from.
+Data is [CC BY 4.0](LICENSE) — use it, just say where it came from. If you build
+something on top of it, we'd rather you did that than asked permission.

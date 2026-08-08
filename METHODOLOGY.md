@@ -4,6 +4,10 @@ Live at **https://wp.md/vibe-code/**. This document is the whole method. If a
 number on the site can't be traced back to something here, that's a bug — open
 an issue.
 
+The format owes a lot to [canivibecodeit.com](https://canivibecodeit.com/) —
+see the credit in the [README](README.md#prior-art--credit) for what was
+borrowed and where this deliberately diverges.
+
 ## The question it answers
 
 Not "can an AI write this code" — in 2026 the answer is usually yes, and it's a
