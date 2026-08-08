@@ -9,7 +9,7 @@
     ],
     "verdict": "kinda",
     "build": "weekends",
-    "upkeepHoursPerYear": 40,
+    "upkeepHoursPerYear": 11,
     "couldBuild": "Row/column layout with inline editing.",
     "stillMissing": "Its reputation is stability across a decade of themes. That is accumulated bug-fixing, and it does not transfer.",
     "requirements": [
@@ -37,5 +37,6 @@
             "desc": "Core layout modules; the module library is paid."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 16
 }

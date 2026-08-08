@@ -9,7 +9,7 @@
     ],
     "verdict": "kinda",
     "build": "weekend",
-    "upkeepHoursPerYear": 30,
+    "upkeepHoursPerYear": 9,
     "couldBuild": "A calendar UI over a custom post type with recurrence rules.",
     "stillMissing": "Recurring events are a genuinely nasty problem, and Pro is really the ticketing, import and venue integrations around it.",
     "requirements": [
@@ -38,5 +38,6 @@
             "desc": "Calendar, views and venues; Pro adds recurring events and ticketing."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 6
 }

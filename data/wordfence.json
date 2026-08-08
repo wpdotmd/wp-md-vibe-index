@@ -9,7 +9,7 @@
     ],
     "verdict": "never",
     "build": "weekend",
-    "upkeepHoursPerYear": 52,
+    "upkeepHoursPerYear": 15,
     "couldBuild": "A firewall that inspects requests and a scanner that diffs core files against checksums.",
     "stillMissing": "The whole point is the real-time threat feed — the rules that landed this week for the vulnerability disclosed this week. That is a research team, not a repository.",
     "requirements": [
@@ -44,5 +44,6 @@
             "desc": "Login hardening and file monitoring without a paid feed."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 6
 }

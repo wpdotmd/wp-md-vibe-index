@@ -9,7 +9,7 @@
     ],
     "verdict": "never",
     "build": "sitting",
-    "upkeepHoursPerYear": 14,
+    "upkeepHoursPerYear": 4,
     "couldBuild": "Popups, slide-ins and an exit-intent trigger. Genuinely a weekend.",
     "stillMissing": "Campaigns, A/B splits, targeting rules and the analytics behind them all run on their infrastructure. The plugin is a loader.",
     "requirements": [
@@ -38,5 +38,6 @@
             "desc": "Popups with targeting and triggers; no A/B testing or hosted analytics."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 2
 }

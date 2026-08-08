@@ -8,7 +8,7 @@
     ],
     "verdict": "kinda",
     "build": "sitting",
-    "upkeepHoursPerYear": 18,
+    "upkeepHoursPerYear": 5,
     "couldBuild": "A filterable, responsive grid over any post type.",
     "stillMissing": "Skins and source integrations. The grid maths is not the hard part.",
     "requirements": [
@@ -35,5 +35,6 @@
             "desc": "Filterable post grids are a core feature now."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 2
 }

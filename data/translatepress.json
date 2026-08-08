@@ -9,7 +9,7 @@
     ],
     "verdict": "kinda",
     "build": "weekend",
-    "upkeepHoursPerYear": 28,
+    "upkeepHoursPerYear": 8,
     "couldBuild": "A visual string editor storing translations per language.",
     "stillMissing": "Automatic translation means a DeepL or Google bill, and SEO-correct multilingual routing is fiddlier than it looks.",
     "requirements": [
@@ -37,5 +37,6 @@
             "desc": "One additional language, manual translation, same visual editor."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 6
 }

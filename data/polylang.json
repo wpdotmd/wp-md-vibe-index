@@ -9,7 +9,7 @@
     ],
     "verdict": "kinda",
     "build": "weekend",
-    "upkeepHoursPerYear": 26,
+    "upkeepHoursPerYear": 7,
     "couldBuild": "Language taxonomy, per-post translation links, a switcher.",
     "stillMissing": "Pro is mostly duplication tooling and WooCommerce/ACF compatibility — code, but a lot of it, against moving targets.",
     "requirements": [
@@ -37,5 +37,6 @@
             "desc": "Unlimited languages; Pro adds duplication tooling and WooCommerce support."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 6
 }

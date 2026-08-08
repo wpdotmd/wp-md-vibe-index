@@ -10,7 +10,7 @@
     ],
     "verdict": "no",
     "build": "weekends",
-    "upkeepHoursPerYear": 45,
+    "upkeepHoursPerYear": 13,
     "couldBuild": "A scheduled job that recharges a stored payment token every month.",
     "stillMissing": "Then: failed-payment retries, proration, gateway tokenisation quirks, SCA, mid-cycle upgrades, tax across borders. Every one of those is somebody's revenue.",
     "requirements": [
@@ -39,5 +39,6 @@
             "desc": "Free recurring billing for WooCommerce with a narrower gateway list."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 16
 }

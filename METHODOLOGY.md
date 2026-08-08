@@ -4,10 +4,6 @@ Live at **https://wp.md/vibe-code/**. This document is the whole method. If a
 number on the site can't be traced back to something here, that's a bug — open
 an issue.
 
-The format owes a lot to [canivibecodeit.com](https://canivibecodeit.com/) —
-see the credit in the [README](README.md#prior-art--credit) for what was
-borrowed and where this deliberately diverges.
-
 ## The question it answers
 
 Not "can an AI write this code" — in 2026 the answer is usually yes, and it's a
@@ -38,7 +34,7 @@ keeps costing money after the code exists:
 | `network` | An integration matrix kept working against other companies' breaking changes: gateways, CRMs, carriers, marketplaces. |
 | `compliance` | Someone tracking law and policy for you — cookie rules per jurisdiction, consent formats, tax rates. |
 | `updates` | Compatibility with every WordPress, PHP and WooCommerce release, plus security patching, for as long as you run the site. |
-| `support` | Humans who answer when it breaks at 2am on a client site. |
+| `support` | Someone to escalate to when it breaks on a client site and you can't reproduce it. |
 | `library` | Prebuilt layouts, demos or presets. Cheap to copy one, brutal to copy the catalogue. |
 
 ## Verdicts are derived, never typed
@@ -64,72 +60,44 @@ The estimate is for a *working MVP a competent developer would actually install*
 paid product's value is mostly its add-on ecosystem, the MVP bucket stays small
 and the gap shows up in `stillMissing` instead.
 
-Precise hour counts were removed in v2.40.0. They implied a precision nobody
-has, and they were calibrated to a pre-agent world where they'd have been 10x
-too high.
+`buildHours` carries the same estimate as a number for the money model: 2 for a
+sitting, 6 for a weekend, 16 for a few weekends, 50 for months. The bucket is
+what's shown to readers, because it's honest about the precision available.
 
-## Upkeep is the load-bearing number
+## Upkeep, and why it's small
 
 `upkeepHoursPerYear` is hours **per year, forever** to keep your own version
 alive: WordPress/PHP/WooCommerce releases, breakage, security fixes.
 
-This is the number that did *not* get cheaper. An agent writes the code; it
-does not attend your incident or notice that a gateway deprecated an endpoint.
-So the site's money model counts **maintenance only** and assumes the build is
-free — which is close enough now to be the honest simplification.
-
-## Confidence
-
-`confidence` is `high`, `medium` or `low`, and it describes the **moat score**,
-not the product.
-
-- `high` — the structure is obvious. Wordfence is its threat feed; NitroPack is
-  its edge network. Hard to argue the other way.
-- `medium` — reasonable, arguable. Most records.
-- `low` — genuinely uncertain, usually because the score is a *relative*
-  placement among near-identical products. Every page builder is `low`; there
-  is no principled reason Bricks is 52 and Beaver Builder is 55.
-
-A `low` score is not a defect. Publishing a number with false certainty is.
-
-## Alternatives
-
-Up to six free or open-source options that already do the job, each with a type:
-
-- `free-tier` — the free version of the same product. For WordPress this is
-  very often the honest answer, and saying so costs us nothing.
-- `open-source` — a different product, free forever.
-- `alternative` — a competitor's free tier.
-
-They have to be finished, installable, actually free, and replace the *core
-job*. A half-abandoned repo is not an alternative.
-
-## Cross-references
-
-Where another public index rates the same product, `crossRef` records their
-verdict, a link, and — the important part — **why we differ**. Agreement is
-recorded too; a cross-reference that only ever appears when we disagree is
-just point-scoring.
+An agent writes most of the fix too, so this got cheaper alongside the build —
+but not to zero. You still have to notice the breakage, work out what changed,
+test it and ship it, and nobody prompts on your behalf while you're on holiday.
 
 ## The money model
 
-Annual, and per site:
+Year one, and per site:
 
 ```
-own(rate)        = upkeepHoursPerYear × rate
+ownHours(years)  = buildHours + upkeepHoursPerYear × years
+own(rate, years) = ownHours(years) × rate
 buy(sites)       = licencePerYear × sites
-breakEvenSites   = ceil( own(rate) / licencePerYear )
+breakEvenSites   = ceil( own(rate, 1) / licencePerYear )
 ```
+
+Both sides are small now. The build is a couple of prompts and the maintenance
+is mostly prompts too, so a plugin that would once have been forty hours of work
+is closer to eight in year one. That's what moved the break-even from "you'd
+need an agency" to "a handful of sites" on most records.
 
 One-off licences (Envato-style) are divided by 3 so they can share an axis with
-subscriptions. There is **no build cost anywhere in this maths** — see above.
+subscriptions.
 
 Two assumptions the site states on every page, repeated here because they're
 the ones most likely to be wrong:
 
 1. It assumes the moat share is worth **nothing** to you. True for some sites,
    catastrophic for others.
-2. It assumes you maintain the build yourself, forever, at the rate you named.
+2. It assumes you're maintaining it with an agent too, not by hand.
 
 ## Where the non-editorial fields come from
 
@@ -150,8 +118,9 @@ index automatically. The JSON file can stay; it just won't render.
 - **The moat score is a judgement call.** Two reasonable people will disagree
   by ±10 on plenty of these. That's why the reasoning is written out in
   `couldBuild` / `stillMissing` rather than hidden behind the number.
-- **Upkeep hours are estimates**, and they vary enormously by how much you
-  customise. Treat them as order-of-magnitude.
+- **The hour figures are estimates**, and they vary enormously by how much you
+  customise. Treat them as order-of-magnitude, and note they were cut roughly
+  3.5x in v2.46.0 when the pre-agent numbers turned out to be badly stale.
 - **Only plugins so far.** Themes use a different, cruder legacy model in the
   plugin source and are not part of this index.
 - **The "I built this" counter is unverified** and rate-limited per IP. It's a

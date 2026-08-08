@@ -9,7 +9,7 @@
     ],
     "verdict": "kinda",
     "build": "weekends",
-    "upkeepHoursPerYear": 48,
+    "upkeepHoursPerYear": 14,
     "couldBuild": "A structure panel over raw elements with full CSS control.",
     "stillMissing": "It replaces the theme layer entirely, so every edge case in WordPress templating becomes yours to own.",
     "requirements": [
@@ -37,5 +37,6 @@
             "desc": "Full-site editing covers much of what Oxygen replaced the theme layer for."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 16
 }

@@ -8,7 +8,7 @@
     ],
     "verdict": "kinda",
     "build": "sitting",
-    "upkeepHoursPerYear": 28,
+    "upkeepHoursPerYear": 8,
     "couldBuild": "Same shape as any form builder, and a fast one.",
     "stillMissing": "Payments and CRM integrations again — plus the performance work that made it worth switching to.",
     "requirements": [
@@ -35,5 +35,6 @@
             "desc": "Conditional logic and most field types are already free."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 2
 }

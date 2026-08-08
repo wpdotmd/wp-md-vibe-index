@@ -8,7 +8,7 @@
     ],
     "verdict": "never",
     "build": "sitting",
-    "upkeepHoursPerYear": 20,
+    "upkeepHoursPerYear": 6,
     "couldBuild": "A caching plugin that stores rendered HTML and serves it early.",
     "stillMissing": "NitroPack is not really a plugin — it is their edge network doing the optimisation and serving the result. The plugin is a client for it. Rebuild the client and you have an empty pipe.",
     "requirements": [
@@ -37,5 +37,6 @@
             "desc": "Free and excellent on LiteSpeed hosting; includes image optimisation via their service."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 2
 }

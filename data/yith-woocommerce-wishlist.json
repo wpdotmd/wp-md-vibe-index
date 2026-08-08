@@ -7,7 +7,7 @@
     ],
     "verdict": "yes",
     "build": "sitting",
-    "upkeepHoursPerYear": 10,
+    "upkeepHoursPerYear": 3,
     "couldBuild": "A saved-products list per user, with sharing.",
     "stillMissing": "Very little. This is the clearest \"you could just build it\" entry in the top 50.",
     "requirements": [
@@ -35,5 +35,6 @@
             "desc": "The whole wishlist loop is free; paid adds sharing polish and analytics."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 2
 }

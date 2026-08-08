@@ -8,7 +8,7 @@
     ],
     "verdict": "kinda",
     "build": "weekend",
-    "upkeepHoursPerYear": 26,
+    "upkeepHoursPerYear": 7,
     "couldBuild": "A keyframe animation engine over layered slides.",
     "stillMissing": "The 250+ templates are the product. One slider is a weekend; a template library is a studio.",
     "requirements": [
@@ -36,5 +36,6 @@
             "desc": "For a hero slider, Swiper plus a block is usually the whole job."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 6
 }

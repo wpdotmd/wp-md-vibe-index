@@ -9,7 +9,7 @@
     ],
     "verdict": "yes",
     "build": "sitting",
-    "upkeepHoursPerYear": 16,
+    "upkeepHoursPerYear": 5,
     "couldBuild": "A hooks-and-filters module layer over a lean theme.",
     "stillMissing": "Mostly you are buying restraint and the site library. Classic one-shot territory otherwise.",
     "requirements": [
@@ -36,5 +36,6 @@
             "desc": "The lean theme itself is free; Premium is the module layer."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 2
 }

@@ -9,7 +9,7 @@
     ],
     "verdict": "kinda",
     "build": "weekend",
-    "upkeepHoursPerYear": 22,
+    "upkeepHoursPerYear": 6,
     "couldBuild": "The same well-trodden on-page SEO surface as every other SEO plugin.",
     "stillMissing": "Link Assistant and the AI generators need a service behind them; the schema catalogue needs someone tracking what Google still reads.",
     "requirements": [
@@ -44,5 +44,6 @@
             "verdict": "yes",
             "note": "Rated 'yes · one sitting' there. Same disagreement as the other SEO entries: their own moat tag says proprietary-data."
         }
-    ]
+    ],
+    "buildHours": 6
 }

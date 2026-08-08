@@ -9,7 +9,7 @@
     ],
     "verdict": "kinda",
     "build": "weekends",
-    "upkeepHoursPerYear": 44,
+    "upkeepHoursPerYear": 13,
     "couldBuild": "A modern builder canvas with a form and popup layer.",
     "stillMissing": "The 130+ prebuilt elements and integrations are the actual deliverable.",
     "requirements": [
@@ -37,5 +37,6 @@
             "desc": "Free, clean output, no licence renewal."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 16
 }

@@ -8,7 +8,7 @@
     ],
     "verdict": "kinda",
     "build": "sitting",
-    "upkeepHoursPerYear": 20,
+    "upkeepHoursPerYear": 6,
     "couldBuild": "Custom blocks with good controls — very reproducible individually.",
     "stillMissing": "The pattern/starter library and the design system consistency across every block.",
     "requirements": [
@@ -41,5 +41,6 @@
             "desc": "Four blocks that do almost everything, free."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 2
 }

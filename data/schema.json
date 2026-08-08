@@ -72,7 +72,7 @@
     "upkeepHoursPerYear": {
       "type": "integer",
       "minimum": 0,
-      "maximum": 400
+      "maximum": 200
     },
     "couldBuild": {
       "type": "string",
@@ -183,6 +183,12 @@
           }
         }
       }
+    },
+    "buildHours": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 200,
+      "description": "Hours behind the build bucket, used by the money model. 2/6/16/50 for sitting/weekend/weekends/months."
     }
   }
 }

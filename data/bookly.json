@@ -9,7 +9,7 @@
     ],
     "verdict": "kinda",
     "build": "weekend",
-    "upkeepHoursPerYear": 30,
+    "upkeepHoursPerYear": 9,
     "couldBuild": "Availability, slots, a booking form and confirmation email.",
     "stillMissing": "Timezones, buffers, staff calendars, deposits and two-way calendar sync are where booking systems actually get hard.",
     "requirements": [
@@ -44,5 +44,6 @@
             "desc": "Free tier with a capped number of appointments."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 6
 }

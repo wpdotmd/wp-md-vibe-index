@@ -10,7 +10,7 @@
     ],
     "verdict": "no",
     "build": "months",
-    "upkeepHoursPerYear": 52,
+    "upkeepHoursPerYear": 15,
     "couldBuild": "A drag-and-drop editor over a block tree. The concept is not the hard part.",
     "stillMissing": "Theme builder, popup builder, forms, WooCommerce widgets, hundreds of templates, and compatibility with every theme on earth. Scope alone sinks it.",
     "requirements": [
@@ -45,5 +45,6 @@
             "desc": "Core blocks plus four well-made ones cover most layouts now."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 50
 }

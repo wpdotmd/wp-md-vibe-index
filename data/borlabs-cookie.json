@@ -9,7 +9,7 @@
     ],
     "verdict": "no",
     "build": "sitting",
-    "upkeepHoursPerYear": 28,
+    "upkeepHoursPerYear": 8,
     "couldBuild": "Consent storage, script blocking and a per-service opt-in UI.",
     "stillMissing": "The service blocklist and the consent copy have to stay correct in German law specifically. Getting that wrong is a fine, not a bug.",
     "requirements": [
@@ -37,5 +37,6 @@
             "desc": "Free consent management with solid German-law coverage."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 2
 }

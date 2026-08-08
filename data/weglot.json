@@ -9,7 +9,7 @@
     ],
     "verdict": "never",
     "build": "weekend",
-    "upkeepHoursPerYear": 24,
+    "upkeepHoursPerYear": 7,
     "couldBuild": "String extraction, a language switcher and a translation table.",
     "stillMissing": "The product is hosted translation plus per-language subdomains they serve and index. You would be rebuilding the switcher and then paying a translation API anyway.",
     "requirements": [
@@ -51,5 +51,6 @@
             "verdict": "no",
             "note": "Rated 'no' with high confidence there. We agree — it's a hosted service wearing a plugin."
         }
-    ]
+    ],
+    "buildHours": 6
 }

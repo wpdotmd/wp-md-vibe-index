@@ -65,8 +65,13 @@ for path in files:
         err(f"build must be one of {sorted(BUILDS)}")
 
     up = rec.get("upkeepHoursPerYear")
-    if not isinstance(up, int) or not 0 <= up <= 400:
-        err("upkeepHoursPerYear must be an integer 0-400")
+    if not isinstance(up, int) or not 0 <= up <= 200:
+        err("upkeepHoursPerYear must be an integer 0-200")
+
+    bh = rec.get("buildHours")
+    expected_bh = {"sitting": 2, "weekend": 6, "weekends": 16, "months": 50}.get(rec.get("build"))
+    if bh is not None and expected_bh and bh != expected_bh:
+        err(f"buildHours {bh} does not match build bucket '{rec.get('build')}' (expected {expected_bh})")
 
     reqs = rec.get("requirements") or []
     if not 3 <= len(reqs) <= 8:

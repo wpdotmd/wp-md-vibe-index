@@ -9,7 +9,7 @@
     ],
     "verdict": "no",
     "build": "weekend",
-    "upkeepHoursPerYear": 26,
+    "upkeepHoursPerYear": 7,
     "couldBuild": "Meta boxes, sitemaps, schema output, redirects. All of it well-understood.",
     "stillMissing": "Pro is rank tracking, keyword data and Search Console/Analytics pipelines. That is infrastructure running whether you are looking or not.",
     "requirements": [
@@ -51,5 +51,6 @@
             "verdict": "yes",
             "note": "Rated 'yes · one sitting' there. We rate it lower because PRO is rank tracking and keyword data — infrastructure, not code."
         }
-    ]
+    ],
+    "buildHours": 6
 }

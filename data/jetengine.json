@@ -9,7 +9,7 @@
     ],
     "verdict": "kinda",
     "build": "weekend",
-    "upkeepHoursPerYear": 40,
+    "upkeepHoursPerYear": 11,
     "couldBuild": "Custom post types, fields and a query-driven listing renderer.",
     "stillMissing": "It is glue between a dozen builders and data sources; each connection is a maintenance contract with someone else's API.",
     "requirements": [
@@ -37,5 +37,6 @@
             "desc": "Custom fields free; listings via block query loops."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 6
 }

@@ -8,7 +8,7 @@
     ],
     "verdict": "kinda",
     "build": "sitting",
-    "upkeepHoursPerYear": 20,
+    "upkeepHoursPerYear": 6,
     "couldBuild": "An event calendar with filtering and a tidy front end.",
     "stillMissing": "The add-on catalogue is the business; the calendar itself is very buildable.",
     "requirements": [
@@ -35,5 +35,6 @@
             "desc": "Free, mature, and covers the same calendar job."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 2
 }

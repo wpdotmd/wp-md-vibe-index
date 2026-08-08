@@ -9,7 +9,7 @@
     ],
     "verdict": "kinda",
     "build": "sitting",
-    "upkeepHoursPerYear": 36,
+    "upkeepHoursPerYear": 10,
     "couldBuild": "A form builder with conditional logic and entry storage. Very tractable.",
     "stillMissing": "Its value is the add-on wall: payment gateways, CRMs, webhooks, e-signatures — each one maintained against a third party that keeps changing.",
     "requirements": [
@@ -44,5 +44,6 @@
             "desc": "Ancient, free, and still handles most contact forms."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 2
 }

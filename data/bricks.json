@@ -9,7 +9,7 @@
     ],
     "verdict": "kinda",
     "build": "weekends",
-    "upkeepHoursPerYear": 44,
+    "upkeepHoursPerYear": 13,
     "couldBuild": "A builder canvas that writes clean markup — arguably the most vibe-codeable builder concept.",
     "stillMissing": "What you would miss is four years of query-loop, dynamic-data and third-party edge cases already ground down.",
     "requirements": [
@@ -38,5 +38,6 @@
             "desc": "Clean markup and query loops without a builder licence."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 16
 }

@@ -9,7 +9,7 @@
     ],
     "verdict": "never",
     "build": "weekend",
-    "upkeepHoursPerYear": 36,
+    "upkeepHoursPerYear": 10,
     "couldBuild": "A consent banner that blocks scripts until someone clicks.",
     "stillMissing": "What you are paying for is a legal team tracking GDPR, ePrivacy, CCPA and friends across jurisdictions and rewriting the generated policy when the rules move.",
     "requirements": [
@@ -44,5 +44,6 @@
             "desc": "Free consent banner with a scanner on the hosted tier."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 6
 }

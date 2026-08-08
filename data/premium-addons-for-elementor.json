@@ -8,7 +8,7 @@
     ],
     "verdict": "yes",
     "build": "sitting",
-    "upkeepHoursPerYear": 22,
+    "upkeepHoursPerYear": 6,
     "couldBuild": "Same shape: a widget library over Elementor's API.",
     "stillMissing": "Breadth plus staying compatible when Elementor moves.",
     "requirements": [
@@ -35,5 +35,6 @@
             "desc": "Most widgets are in the free tier."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 2
 }

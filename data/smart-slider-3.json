@@ -8,7 +8,7 @@
     ],
     "verdict": "kinda",
     "build": "weekend",
-    "upkeepHoursPerYear": 22,
+    "upkeepHoursPerYear": 6,
     "couldBuild": "Responsive slides with a layer editor.",
     "stillMissing": "Same story — the template catalogue and the editor polish, not the transitions.",
     "requirements": [
@@ -35,5 +35,6 @@
             "desc": "Most slider features free; the template library is paid."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 6
 }

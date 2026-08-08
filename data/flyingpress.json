@@ -8,7 +8,7 @@
     ],
     "verdict": "kinda",
     "build": "weekend",
-    "upkeepHoursPerYear": 32,
+    "upkeepHoursPerYear": 9,
     "couldBuild": "The same caching and asset-optimisation surface.",
     "stillMissing": "Correct cache invalidation for logged-in, cart and dynamic states is where DIY caching dies.",
     "requirements": [
@@ -36,5 +36,6 @@
             "desc": "Covers the same ground free on supported hosting."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 6
 }

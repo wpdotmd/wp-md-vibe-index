@@ -10,7 +10,7 @@
     ],
     "verdict": "no",
     "build": "weekend",
-    "upkeepHoursPerYear": 24,
+    "upkeepHoursPerYear": 7,
     "couldBuild": "Readability and keyphrase analysis, redirects, internal-link suggestions.",
     "stillMissing": "The AI title/meta generation is their inference bill, the Semrush keyword data is a licence, and the language analysis covers languages you would not build for.",
     "requirements": [
@@ -52,5 +52,6 @@
             "verdict": "yes",
             "note": "Rated 'yes · one sitting' there. We disagree: the on-page code is an evening, but the AI generation and Semrush data are a running bill, which a binary verdict can't express."
         }
-    ]
+    ],
+    "buildHours": 6
 }

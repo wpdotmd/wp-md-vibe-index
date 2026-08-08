@@ -8,7 +8,7 @@
     ],
     "verdict": "yes",
     "build": "sitting",
-    "upkeepHoursPerYear": 22,
+    "upkeepHoursPerYear": 6,
     "couldBuild": "Individual widgets. Any one of them is an afternoon.",
     "stillMissing": "You want one widget, not ninety. Buying the pack is a convenience trade, and the upkeep tracks Elementor's releases.",
     "requirements": [
@@ -35,5 +35,6 @@
             "desc": "Around 40 widgets free — usually including the one you wanted."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 2
 }

@@ -8,7 +8,7 @@
     ],
     "verdict": "kinda",
     "build": "weekend",
-    "upkeepHoursPerYear": 30,
+    "upkeepHoursPerYear": 9,
     "couldBuild": "Appointment and event booking over a resource model.",
     "stillMissing": "Google/Outlook sync, payment capture and recurring appointments — integration work, endlessly.",
     "requirements": [
@@ -36,5 +36,6 @@
             "desc": "Capped free tier covering the basic booking loop."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 6
 }

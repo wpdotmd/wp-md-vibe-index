@@ -9,7 +9,7 @@
     ],
     "verdict": "kinda",
     "build": "sitting",
-    "upkeepHoursPerYear": 32,
+    "upkeepHoursPerYear": 9,
     "couldBuild": "Drag-and-drop fields, validation, notifications, entry export.",
     "stillMissing": "Stripe/PayPal/Square handling, spam defence and the integration catalogue. The builder is the cheap half.",
     "requirements": [
@@ -43,5 +43,6 @@
             "desc": "More free features than most paid tiers had five years ago."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 2
 }

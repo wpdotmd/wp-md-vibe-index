@@ -8,7 +8,7 @@
     ],
     "verdict": "yes",
     "build": "sitting",
-    "upkeepHoursPerYear": 10,
+    "upkeepHoursPerYear": 3,
     "couldBuild": "Script manager, disable-what-you-do-not-need toggles, a handful of tuned defaults.",
     "stillMissing": "Honestly not much. This is one of the most genuinely reproducible products on the list — you are buying curation and time saved.",
     "requirements": [
@@ -36,5 +36,6 @@
             "desc": "Per-page script unloading free; the paid tier adds convenience."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 2
 }

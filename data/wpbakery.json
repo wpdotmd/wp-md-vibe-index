@@ -9,7 +9,7 @@
     ],
     "verdict": "kinda",
     "build": "weekends",
-    "upkeepHoursPerYear": 40,
+    "upkeepHoursPerYear": 11,
     "couldBuild": "Shortcode-driven layout building.",
     "stillMissing": "Mostly it survives because thousands of themes ship it and expect its exact shortcodes. You cannot vibe-code an installed base.",
     "requirements": [
@@ -36,5 +36,6 @@
             "desc": "If you're not locked in by a theme, core blocks have overtaken it."
         }
     ],
-    "crossRef": []
+    "crossRef": [],
+    "buildHours": 16
 }
