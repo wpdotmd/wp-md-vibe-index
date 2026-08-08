@@ -121,6 +121,9 @@ index automatically. The JSON file can stay; it just won't render.
 - **The hour figures are estimates**, and they vary enormously by how much you
   customise. Treat them as order-of-magnitude, and note they were cut roughly
   3.5x in v2.46.0 when the pre-agent numbers turned out to be badly stale.
+- **All 50 tracked premium plugins now have a record** (the index was 40 of
+  50 before v2.54.0), so a plugin missing from the page has dropped out of the
+  premium top 50 rather than being un-scored.
 - **Only plugins so far.** Themes use a different, cruder legacy model in the
   plugin source and are not part of this index.
 - **The "I built this" counter is unverified** and rate-limited per IP. It's a

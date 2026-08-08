@@ -1,0 +1,42 @@
+{
+  "slug": "thrive-leads",
+  "name": "Thrive Leads",
+  "moat": 58,
+  "moatTags": [
+    "network",
+    "library",
+    "updates",
+    "support"
+  ],
+  "verdict": "no",
+  "build": "weekend",
+  "upkeepHoursPerYear": 10,
+  "buildHours": 6,
+  "couldBuild": "Opt-in forms in the usual placements — popup, ribbon, inline, slide-in — with display rules and a local subscriber table.",
+  "stillMissing": "The integration list is the product: two dozen email services, each with its own API, list and tag semantics, and its own breaking changes. Add real A/B testing with statistics you can trust, and a template library nobody wants to design from scratch.",
+  "requirements": [
+    "Multiple form types with per-post-type and per-URL display rules",
+    "Trigger rules: scroll depth, exit intent, time on page, click",
+    "A/B testing with a defined winner rule, not just two variants",
+    "Integrations with the email service you actually use, including tags",
+    "Conversion reporting per form and per placement"
+  ],
+  "confidence": "medium",
+  "alternatives": [
+    {
+      "name": "OptinMonster",
+      "url": "https://optinmonster.com/",
+      "type": "alternative",
+      "desc": "The same job as a hosted service rather than a self-hosted plugin."
+    },
+    {
+      "name": "MailPoet",
+      "url": "https://wordpress.org/plugins/mailpoet/",
+      "type": "free-tier",
+      "desc": "Forms plus sending in one, free at small list sizes."
+    }
+  ],
+  "crossRef": [],
+  "notes": null,
+  "reviewedOn": "2026-08-08"
+}

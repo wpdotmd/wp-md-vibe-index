@@ -1,0 +1,41 @@
+{
+  "slug": "woocommerce-bookings",
+  "name": "WooCommerce Bookings",
+  "moat": 62,
+  "moatTags": [
+    "network",
+    "updates",
+    "support"
+  ],
+  "verdict": "no",
+  "build": "weekends",
+  "upkeepHoursPerYear": 12,
+  "buildHours": 16,
+  "couldBuild": "A bookable product type, an availability calendar and a slot picker that writes an order. The demo looks finished quickly.",
+  "stillMissing": "Availability is a deceptively hard problem: timezones and DST, buffer times, per-resource capacity, double-booking under concurrent requests, and two-way sync with Google Calendar. Every one of those bugs is a customer who turned up on the wrong day.",
+  "requirements": [
+    "Bookable product type with per-day and per-slot availability rules",
+    "Timezone-correct slot generation, including DST transitions",
+    "Resource and capacity handling so two customers cannot take one slot",
+    "Buffer time, minimum notice and cancellation windows",
+    "Calendar sync and confirmation/reminder emails"
+  ],
+  "confidence": "medium",
+  "alternatives": [
+    {
+      "name": "Amelia",
+      "url": "https://wpamelia.com/",
+      "type": "alternative",
+      "desc": "Standalone booking rather than a WooCommerce extension."
+    },
+    {
+      "name": "Bookly",
+      "url": "https://www.booking-wp-plugin.com/",
+      "type": "alternative",
+      "desc": "Appointment-first, with a free tier that covers simple scheduling."
+    }
+  ],
+  "crossRef": [],
+  "notes": "Scored above Memberships mainly on timezone and concurrency risk, not on feature count.",
+  "reviewedOn": "2026-08-08"
+}

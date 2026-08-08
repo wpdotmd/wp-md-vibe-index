@@ -1,0 +1,46 @@
+{
+  "slug": "advanced-custom-fields-pro",
+  "name": "Advanced Custom Fields Pro",
+  "moat": 26,
+  "moatTags": [
+    "updates",
+    "support"
+  ],
+  "verdict": "yes",
+  "build": "weekend",
+  "upkeepHoursPerYear": 6,
+  "buildHours": 6,
+  "couldBuild": "Field groups, location rules, a repeater and a flexible-content field over post meta, plus the get_field() helpers your templates call.",
+  "stillMissing": "Very little, and that is the point — ACF Pro is close to pure code. What you would actually be taking on is a decade of edge cases in serialisation, block and Gutenberg integration, and the fact that every theme and plugin you own already calls its API. Rebuilding it is easy; migrating off it is not.",
+  "requirements": [
+    "Field-group UI with conditional logic and location rules",
+    "Repeater and flexible-content fields with nested sub-fields",
+    "Options pages and per-field-group settings storage",
+    "A stable read API (get_field/the_field) your templates can call",
+    "Block registration so fields drive Gutenberg blocks"
+  ],
+  "confidence": "high",
+  "alternatives": [
+    {
+      "name": "Advanced Custom Fields (free)",
+      "url": "https://wordpress.org/plugins/advanced-custom-fields/",
+      "type": "free-tier",
+      "desc": "Everything except repeater, flexible content, options pages and blocks."
+    },
+    {
+      "name": "Meta Box",
+      "url": "https://wordpress.org/plugins/meta-box/",
+      "type": "open-source",
+      "desc": "A code-first custom fields framework with a generous free core."
+    },
+    {
+      "name": "Carbon Fields",
+      "url": "https://carbonfields.net/",
+      "type": "open-source",
+      "desc": "Developer-oriented fields declared entirely in PHP, no UI to maintain."
+    }
+  ],
+  "crossRef": [],
+  "notes": "The lowest moat in the index for a reason: almost all of the value is code you can read. The lock-in is switching cost, not vendor dependency.",
+  "reviewedOn": "2026-08-08"
+}

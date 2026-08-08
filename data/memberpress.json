@@ -1,0 +1,42 @@
+{
+  "slug": "memberpress",
+  "name": "MemberPress",
+  "moat": 64,
+  "moatTags": [
+    "network",
+    "compliance",
+    "updates",
+    "support"
+  ],
+  "verdict": "no",
+  "build": "weekends",
+  "upkeepHoursPerYear": 14,
+  "buildHours": 16,
+  "couldBuild": "Paywalled content rules, membership levels, a signup flow and a Stripe subscription behind them. The happy path is genuinely a couple of weekends.",
+  "stillMissing": "Everything that happens when the happy path fails: dunning and failed-payment retries, proration on upgrades, cancellations and refunds, EU VAT and US sales tax, plus the gateway and CRM matrix. This is somebody's recurring revenue, and the edge cases are where it leaks.",
+  "requirements": [
+    "Membership levels with content-access rules by post, category and taxonomy",
+    "Recurring billing with at least one gateway, including dunning and retries",
+    "Upgrade/downgrade with proration and cancellation handling",
+    "Tax handling for the jurisdictions you actually sell into",
+    "Member account area: invoices, payment method, subscription state"
+  ],
+  "confidence": "medium",
+  "alternatives": [
+    {
+      "name": "Paid Memberships Pro",
+      "url": "https://wordpress.org/plugins/paid-memberships-pro/",
+      "type": "free-tier",
+      "desc": "A genuinely usable free core; the add-ons are where it monetises."
+    },
+    {
+      "name": "WooCommerce Memberships",
+      "url": "https://woocommerce.com/products/woocommerce-memberships/",
+      "type": "alternative",
+      "desc": "Worth it if you already run WooCommerce for the storefront."
+    }
+  ],
+  "crossRef": [],
+  "notes": null,
+  "reviewedOn": "2026-08-08"
+}
