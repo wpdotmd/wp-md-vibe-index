@@ -1,50 +1,50 @@
 {
-    "slug": "elementor-pro",
-    "name": "Elementor Pro",
-    "moat": 58,
-    "moatTags": [
-        "library",
-        "updates",
-        "support",
-        "network"
-    ],
-    "verdict": "no",
-    "build": "months",
-    "upkeepHoursPerYear": 15,
-    "couldBuild": "A drag-and-drop editor over a block tree. The concept is not the hard part.",
-    "stillMissing": "Theme builder, popup builder, forms, WooCommerce widgets, hundreds of templates, and compatibility with every theme on earth. Scope alone sinks it.",
-    "requirements": [
-        "Drag-and-drop canvas over a serialisable block tree with undo/redo",
-        "Responsive controls per breakpoint for every property",
-        "Theme builder: header, footer, single and archive templates with display conditions",
-        "A form widget with validation, actions-after-submit and entry storage",
-        "Global colours and fonts propagating across the whole site"
-    ],
-    "notes": null,
-    "reviewedOn": "2026-08-08",
-    "derived": {
-        "priceLabel": "from $59/yr",
-        "priceYearly": 59,
-        "liveSites": 5828336,
-        "codeShare": 42,
-        "generatedOn": "2026-08-08",
-        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+  "slug": "elementor-pro",
+  "name": "Elementor Pro",
+  "moat": 58,
+  "moatTags": [
+    "library",
+    "updates",
+    "support",
+    "network"
+  ],
+  "verdict": "no",
+  "build": "weekends",
+  "upkeepHoursPerYear": 15,
+  "couldBuild": "Pro's additions on top of the free plugin, which already gives you the canvas: custom widgets, a theme-builder location, popup triggers and a form widget.",
+  "stillMissing": "Theme builder, popup builder, forms, WooCommerce widgets, hundreds of templates, and compatibility with every theme on earth. Scope alone sinks it.",
+  "requirements": [
+    "Theme builder: header, footer, single and archive templates with display conditions",
+    "A form widget with validation, actions-after-submit and entry storage",
+    "Popup builder with trigger and display rules",
+    "A handful of the widgets you actually use, registered against Elementor's widget API",
+    "Global colours and fonts propagating across the whole site"
+  ],
+  "notes": "Scoped as an add-on, not a rebuild: free Elementor is GPL and supplies the editor, so the MVP is Pro's surface on top of its API. Cut from 50h in v2.51.0 — the old estimate priced rebuilding the canvas, which nobody would do.",
+  "reviewedOn": "2026-08-08",
+  "derived": {
+    "priceLabel": "from $59/yr",
+    "priceYearly": 59,
+    "liveSites": 5828336,
+    "codeShare": 42,
+    "generatedOn": "2026-08-08",
+    "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+  },
+  "confidence": "medium",
+  "alternatives": [
+    {
+      "name": "Elementor Free",
+      "url": "https://wordpress.org/plugins/elementor/",
+      "type": "free-tier",
+      "desc": "The builder itself; Pro is the theme builder, forms and widget breadth."
     },
-    "confidence": "medium",
-    "alternatives": [
-        {
-            "name": "Elementor Free",
-            "url": "https://wordpress.org/plugins/elementor/",
-            "type": "free-tier",
-            "desc": "The builder itself; Pro is the theme builder, forms and widget breadth."
-        },
-        {
-            "name": "Block editor + GenerateBlocks",
-            "url": "https://wordpress.org/plugins/generateblocks/",
-            "type": "open-source",
-            "desc": "Core blocks plus four well-made ones cover most layouts now."
-        }
-    ],
-    "crossRef": [],
-    "buildHours": 50
+    {
+      "name": "Block editor + GenerateBlocks",
+      "url": "https://wordpress.org/plugins/generateblocks/",
+      "type": "open-source",
+      "desc": "Core blocks plus four well-made ones cover most layouts now."
+    }
+  ],
+  "crossRef": [],
+  "buildHours": 16
 }

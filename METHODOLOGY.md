@@ -63,6 +63,16 @@ and the gap shows up in `stillMissing` instead.
 `buildHours` carries the same estimate as a number for the money model: 2 for a
 sitting, 6 for a weekend, 16 for a few weekends, 50 for months. The bucket is
 what's shown to readers, because it's honest about the precision available.
+`buildHours` must equal its bucket's value exactly — the validator enforces it,
+so a record can't quietly carry a hand-tuned number the label doesn't match.
+
+**Scope an add-on as an add-on.** Where a paid product extends a free one, the
+MVP is the paid surface on top of the free plugin's API, not a rebuild of both.
+Elementor Pro sat at `months`/50h until v2.51.0 because its requirements
+described rebuilding the drag-and-drop canvas — which is GPL, free, and already
+installed on the site you'd be building for. Rescoped to Pro's own additions it
+is `weekends`/16h. As of v2.54.0 no record uses `months`; the bucket stays in
+the schema, but reaching for it is a sign the scope is wrong.
 
 ## Upkeep, and why it's small
 
