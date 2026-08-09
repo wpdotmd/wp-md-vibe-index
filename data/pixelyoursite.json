@@ -1,0 +1,42 @@
+{
+  "slug": "pixelyoursite",
+  "name": "PixelYourSite",
+  "moat": 62,
+  "moatTags": [
+    "network",
+    "compliance",
+    "updates",
+    "support"
+  ],
+  "verdict": "no",
+  "build": "weekend",
+  "upkeepHoursPerYear": 12,
+  "buildHours": 6,
+  "couldBuild": "Dropping the Meta, GA4 and TikTok tags onto a page and firing purchase events from WooCommerce. The first version works in an evening.",
+  "stillMissing": "The tags are the easy half. Server-side Conversions API with correct browser/server deduplication, GA4's ecommerce event schema, and consent mode are each a moving target maintained by a company that isn't you — and every ad platform changes theirs on its own schedule. When it silently stops matching, your reporting is wrong and nothing errors.",
+  "requirements": [
+    "Tag output for the platforms you actually run ads on",
+    "Ecommerce events (view, add to cart, purchase) with correct payloads",
+    "Server-side Conversions API with event deduplication against the browser",
+    "Consent mode so tags respect the cookie banner",
+    "UTM and click-ID capture surviving across the session"
+  ],
+  "confidence": "medium",
+  "alternatives": [
+    {
+      "name": "PixelYourSite (free)",
+      "url": "https://wordpress.org/plugins/pixelyoursite/",
+      "type": "free-tier",
+      "desc": "Browser-side tags and standard events; server-side and multi-platform are paid."
+    },
+    {
+      "name": "Site Kit by Google",
+      "url": "https://wordpress.org/plugins/google-site-kit/",
+      "type": "free-tier",
+      "desc": "Free and official if Google properties are all you need to wire up."
+    }
+  ],
+  "crossRef": [],
+  "notes": null,
+  "reviewedOn": "2026-08-08"
+}
