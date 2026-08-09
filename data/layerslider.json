@@ -1,0 +1,41 @@
+{
+  "slug": "layerslider",
+  "name": "LayerSlider",
+  "moat": 34,
+  "moatTags": [
+    "library",
+    "updates",
+    "support"
+  ],
+  "verdict": "kinda",
+  "build": "weekend",
+  "upkeepHoursPerYear": 8,
+  "buildHours": 6,
+  "couldBuild": "A responsive slider with transitions and per-layer animation. CSS and the Web Animations API do most of the work now that jQuery-era hacks are gone.",
+  "stillMissing": "The slider is not the product; the visual timeline editor is, and so are the several hundred ready-made templates. Both are large, unglamorous surfaces that take a long time and are boring to rebuild.",
+  "requirements": [
+    "Responsive slider with per-layer positioning and timing",
+    "A visual editor for keyframes and transitions",
+    "Template library covering common hero and gallery layouts",
+    "Touch, keyboard and reduced-motion handling",
+    "Import/export so slides move between sites"
+  ],
+  "confidence": "low",
+  "alternatives": [
+    {
+      "name": "CSS scroll snap + a few keyframes",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll_snap",
+      "type": "open-source",
+      "desc": "Modern CSS covers most hero sliders with no plugin at all."
+    },
+    {
+      "name": "Smart Slider 3",
+      "url": "https://wordpress.org/plugins/smart-slider-3/",
+      "type": "free-tier",
+      "desc": "A capable free tier if you need an editor rather than hand-written CSS."
+    }
+  ],
+  "crossRef": [],
+  "notes": "Premium-only — not on wordpress.org, so the live count is the paid product.",
+  "reviewedOn": "2026-08-09"
+}

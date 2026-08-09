@@ -1,0 +1,42 @@
+{
+  "slug": "ultimate-member",
+  "name": "Ultimate Member",
+  "moat": 44,
+  "moatTags": [
+    "library",
+    "network",
+    "updates",
+    "support"
+  ],
+  "verdict": "kinda",
+  "build": "weekend",
+  "upkeepHoursPerYear": 10,
+  "buildHours": 6,
+  "couldBuild": "Front-end registration, login and profile editing over ordinary WordPress users, with member directories built on WP_User_Query.",
+  "stillMissing": "The core is genuinely ordinary WordPress. The licence buys the extension catalogue — social login, private messaging, groups, follow — plus the moderation tooling any real community needs. Cheap to start, expensive to finish.",
+  "requirements": [
+    "Front-end registration, login and password reset",
+    "Editable profiles with custom fields and privacy per field",
+    "Member directory with search and filtering",
+    "Role-based content restriction",
+    "Moderation: approval queues, blocking, spam handling"
+  ],
+  "confidence": "medium",
+  "alternatives": [
+    {
+      "name": "Ultimate Member (free)",
+      "url": "https://wordpress.org/plugins/ultimate-member/",
+      "type": "free-tier",
+      "desc": "Profiles, directories and restriction are free; extensions are the paid tier."
+    },
+    {
+      "name": "BuddyPress",
+      "url": "https://wordpress.org/plugins/buddypress/",
+      "type": "open-source",
+      "desc": "A full community stack, free, if you need groups and activity streams."
+    }
+  ],
+  "crossRef": [],
+  "notes": null,
+  "reviewedOn": "2026-08-09"
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "mailpoet",
+  "name": "MailPoet",
+  "moat": 72,
+  "moatTags": [
+    "service",
+    "updates",
+    "support",
+    "network"
+  ],
+  "verdict": "no",
+  "build": "weekend",
+  "upkeepHoursPerYear": 10,
+  "buildHours": 6,
+  "couldBuild": "Subscriber lists, a drag-and-drop email designer, and a cron job that sends campaigns through your own SMTP.",
+  "stillMissing": "Everything that decides whether the email arrives. MailPoet's paid tier is its Sending Service: warmed IPs, a domain reputation somebody defends daily, bounce and complaint handling, and the authentication work that keeps you out of spam. Send through your own server and your list will quietly stop reaching people, and nothing will error.",
+  "requirements": [
+    "Subscriber lists with double opt-in and unsubscribe handling",
+    "Email designer producing markup that survives Outlook and Gmail",
+    "Scheduled and automated sends without hammering WP-Cron",
+    "Bounce and complaint processing that prunes the list",
+    "SPF, DKIM and DMARC alignment on whatever sends the mail"
+  ],
+  "confidence": "high",
+  "alternatives": [
+    {
+      "name": "MailPoet (free)",
+      "url": "https://wordpress.org/plugins/mailpoet/",
+      "type": "free-tier",
+      "desc": "Free to 500 subscribers including sending, which is the hard part."
+    },
+    {
+      "name": "FluentCRM + an SMTP relay",
+      "url": "https://wordpress.org/plugins/fluent-crm/",
+      "type": "alternative",
+      "desc": "Self-host the list and rent only the sending from Postmark or SES."
+    }
+  ],
+  "crossRef": [],
+  "notes": "Highest moat of the batch: deliverability is a service, and it is the one part of email you cannot self-host your way out of cheaply.",
+  "reviewedOn": "2026-08-09"
+}
