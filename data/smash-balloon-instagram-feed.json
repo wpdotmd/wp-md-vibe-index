@@ -1,0 +1,41 @@
+{
+  "slug": "smash-balloon-instagram-feed",
+  "name": "Smash Balloon Instagram Feed",
+  "moat": 56,
+  "moatTags": [
+    "network",
+    "updates",
+    "support"
+  ],
+  "verdict": "kinda",
+  "build": "weekend",
+  "upkeepHoursPerYear": 10,
+  "buildHours": 6,
+  "couldBuild": "Pull a feed from the Instagram Basic Display API, cache the JSON, render a responsive grid with a lightbox. A weekend, and it will look right.",
+  "stillMissing": "Then Meta changes something. Access tokens expire on a cycle and have to be refreshed without the site owner noticing, permissions get renamed, endpoints get deprecated with months of notice, and the whole Basic Display API was retired outright. None of that is hard code — it is a maintenance tax somebody has to keep paying, and if they stop the feed just goes blank on a client's homepage.",
+  "requirements": [
+    "OAuth connection to Instagram with unattended long-lived token refresh",
+    "Feed caching so the site does not hit the API on every pageview",
+    "Responsive grid or carousel with a lightbox",
+    "Graceful degradation to the last good cache when the API fails",
+    "Moderation: hide specific posts, filter by hashtag"
+  ],
+  "confidence": "medium",
+  "alternatives": [
+    {
+      "name": "Smash Balloon Instagram Feed (free)",
+      "url": "https://wordpress.org/plugins/instagram-feed/",
+      "type": "free-tier",
+      "desc": "One feed with basic layouts; multiple feeds and filtering are paid."
+    },
+    {
+      "name": "Instagram's own embed",
+      "url": "https://developers.facebook.com/docs/instagram/oembed/",
+      "type": "free-tier",
+      "desc": "Per-post embeds, no token to maintain, but no grid and no control."
+    }
+  ],
+  "crossRef": [],
+  "notes": "The clearest 'maintenance tax not code' entry in the index: the build is trivial, the upkeep never stops.",
+  "reviewedOn": "2026-08-08"
+}
