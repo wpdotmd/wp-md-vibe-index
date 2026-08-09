@@ -1,0 +1,47 @@
+{
+  "slug": "monsterinsights",
+  "name": "MonsterInsights",
+  "moat": 28,
+  "moatTags": [
+    "updates",
+    "support",
+    "network"
+  ],
+  "verdict": "yes",
+  "build": "weekend",
+  "upkeepHoursPerYear": 8,
+  "buildHours": 6,
+  "couldBuild": "GA4 wired up correctly, ecommerce and form events sent, and the numbers pulled back into a WordPress dashboard widget through the Analytics Data API.",
+  "stillMissing": "Honestly, not much — which is why this sits where it does despite being one of the most-installed products in the index. It is a well-made wrapper around an API Google gives you for free. What you take on is GA4's habit of changing its schema, and the fact that nobody else on your team will maintain the OAuth connection when it breaks.",
+  "requirements": [
+    "GA4 property connection over OAuth, with token refresh that survives",
+    "Pageview and event tracking that respects consent",
+    "Ecommerce events for WooCommerce or EDD with correct payloads",
+    "Reports pulled from the Analytics Data API into a dashboard widget",
+    "Exclusion of admin and logged-in traffic"
+  ],
+  "confidence": "high",
+  "alternatives": [
+    {
+      "name": "Site Kit by Google",
+      "url": "https://wordpress.org/plugins/google-site-kit/",
+      "type": "free-tier",
+      "desc": "Google's own plugin, free, covering Analytics, Search Console and AdSense."
+    },
+    {
+      "name": "MonsterInsights (free)",
+      "url": "https://wordpress.org/plugins/google-analytics-for-wordpress/",
+      "type": "free-tier",
+      "desc": "Connection and basic reports free; ecommerce and dimensions are paid."
+    },
+    {
+      "name": "Independent analytics",
+      "url": "https://plausible.io/",
+      "type": "alternative",
+      "desc": "Privacy-first analytics that sidestep GA4 and consent banners entirely."
+    }
+  ],
+  "crossRef": [],
+  "notes": "One of the widest gaps in the index between install base and moat: roughly 2M live sites on a product that is mostly a wrapper. Popularity here reflects distribution and brand rather than anything hard to rebuild.",
+  "reviewedOn": "2026-08-08"
+}
