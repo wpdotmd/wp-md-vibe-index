@@ -1,48 +1,56 @@
 {
-  "slug": "easy-digital-downloads",
-  "name": "Easy Digital Downloads",
-  "moat": 66,
-  "moatTags": [
-    "network",
-    "compliance",
-    "updates",
-    "support"
-  ],
-  "verdict": "no",
-  "build": "weekends",
-  "upkeepHoursPerYear": 12,
-  "buildHours": 16,
-  "couldBuild": "A downloadable product type, a cart, a Stripe checkout and a signed expiring download link. The store works by the end of the weekend.",
-  "stillMissing": "Then the actual business arrives: software licensing with activation limits, recurring payments and their failure modes, EU VAT determined by customer location, refunds, and a gateway matrix. EDD's own add-on catalogue is the honest map of what you would end up rebuilding.",
-  "requirements": [
-    "Digital product type with variable pricing and secure expiring downloads",
-    "Checkout with at least one gateway, plus refunds and receipts",
-    "Recurring payments including retries and cancellation",
-    "Software licence keys with activation limits and remote validation",
-    "Tax handled for the jurisdictions you sell into, EU VAT included"
-  ],
-  "confidence": "medium",
-  "alternatives": [
-    {
-      "name": "Easy Digital Downloads (free)",
-      "url": "https://wordpress.org/plugins/easy-digital-downloads/",
-      "type": "free-tier",
-      "desc": "A complete digital store; licensing, recurring and most gateways are paid add-ons."
-    },
-    {
-      "name": "WooCommerce",
-      "url": "https://wordpress.org/plugins/woocommerce/",
-      "type": "free-tier",
-      "desc": "Heavier, but free core covers digital products and has more integrations."
-    },
-    {
-      "name": "Lemon Squeezy / Paddle",
-      "url": "https://www.lemonsqueezy.com/",
-      "type": "alternative",
-      "desc": "Merchant of record — they own the VAT problem entirely, for a cut."
+    "slug": "easy-digital-downloads",
+    "name": "Easy Digital Downloads",
+    "moat": 66,
+    "moatTags": [
+        "network",
+        "compliance",
+        "updates",
+        "support"
+    ],
+    "verdict": "no",
+    "build": "weekends",
+    "upkeepHoursPerYear": 12,
+    "buildHours": 16,
+    "couldBuild": "A downloadable product type, a cart, a Stripe checkout and a signed expiring download link. The store works by the end of the weekend.",
+    "stillMissing": "Then the actual business arrives: software licensing with activation limits, recurring payments and their failure modes, EU VAT determined by customer location, refunds, and a gateway matrix. EDD's own add-on catalogue is the honest map of what you would end up rebuilding.",
+    "requirements": [
+        "Digital product type with variable pricing and secure expiring downloads",
+        "Checkout with at least one gateway, plus refunds and receipts",
+        "Recurring payments including retries and cancellation",
+        "Software licence keys with activation limits and remote validation",
+        "Tax handled for the jurisdictions you sell into, EU VAT included"
+    ],
+    "confidence": "medium",
+    "alternatives": [
+        {
+            "name": "Easy Digital Downloads (free)",
+            "url": "https://wordpress.org/plugins/easy-digital-downloads/",
+            "type": "free-tier",
+            "desc": "A complete digital store; licensing, recurring and most gateways are paid add-ons."
+        },
+        {
+            "name": "WooCommerce",
+            "url": "https://wordpress.org/plugins/woocommerce/",
+            "type": "free-tier",
+            "desc": "Heavier, but free core covers digital products and has more integrations."
+        },
+        {
+            "name": "Lemon Squeezy / Paddle",
+            "url": "https://www.lemonsqueezy.com/",
+            "type": "alternative",
+            "desc": "Merchant of record — they own the VAT problem entirely, for a cut."
+        }
+    ],
+    "crossRef": [],
+    "notes": "Sold as EDD Pro; BuiltWith detects the free plugin the paid tier extends.",
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "Pro from $99/yr",
+        "priceYearly": 99,
+        "liveSites": 39902,
+        "codeShare": 34,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": "Sold as EDD Pro; BuiltWith detects the free plugin the paid tier extends.",
-  "reviewedOn": "2026-08-08"
 }

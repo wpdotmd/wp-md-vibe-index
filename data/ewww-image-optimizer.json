@@ -1,41 +1,49 @@
 {
-  "slug": "ewww-image-optimizer",
-  "name": "EWWW Image Optimizer",
-  "moat": 70,
-  "moatTags": [
-    "service",
-    "network",
-    "updates"
-  ],
-  "verdict": "no",
-  "build": "weekend",
-  "upkeepHoursPerYear": 8,
-  "buildHours": 6,
-  "couldBuild": "Hook the media upload, run images through a local encoder, generate WebP and AVIF, and rewrite the markup to serve them. All of it is well-documented.",
-  "stillMissing": "The paid product is not the plugin, it is their compression API and CDN — machines that cost them money every time you upload. You can run local encoders for free, but then you own the CPU, the storage for every derivative, the bandwidth, and the edge delivery. That is renting infrastructure with extra steps.",
-  "requirements": [
-    "Optimise on upload plus a bulk pass over the existing library",
-    "WebP and AVIF generation with correct fallback delivery",
-    "Rewriting front-end markup to serve the optimised format",
-    "Originals kept so optimisation is reversible",
-    "A queue that survives large libraries without timing out"
-  ],
-  "confidence": "medium",
-  "alternatives": [
-    {
-      "name": "EWWW Image Optimizer (free)",
-      "url": "https://wordpress.org/plugins/ewww-image-optimizer/",
-      "type": "free-tier",
-      "desc": "Local optimisation with no API cost; the CDN and premium compression are paid."
-    },
-    {
-      "name": "Core WebP + a CDN",
-      "url": "https://wordpress.org/",
-      "type": "free-tier",
-      "desc": "WordPress handles WebP natively now and most CDNs optimise images at the edge."
+    "slug": "ewww-image-optimizer",
+    "name": "EWWW Image Optimizer",
+    "moat": 70,
+    "moatTags": [
+        "service",
+        "network",
+        "updates"
+    ],
+    "verdict": "no",
+    "build": "weekend",
+    "upkeepHoursPerYear": 8,
+    "buildHours": 6,
+    "couldBuild": "Hook the media upload, run images through a local encoder, generate WebP and AVIF, and rewrite the markup to serve them. All of it is well-documented.",
+    "stillMissing": "The paid product is not the plugin, it is their compression API and CDN — machines that cost them money every time you upload. You can run local encoders for free, but then you own the CPU, the storage for every derivative, the bandwidth, and the edge delivery. That is renting infrastructure with extra steps.",
+    "requirements": [
+        "Optimise on upload plus a bulk pass over the existing library",
+        "WebP and AVIF generation with correct fallback delivery",
+        "Rewriting front-end markup to serve the optimised format",
+        "Originals kept so optimisation is reversible",
+        "A queue that survives large libraries without timing out"
+    ],
+    "confidence": "medium",
+    "alternatives": [
+        {
+            "name": "EWWW Image Optimizer (free)",
+            "url": "https://wordpress.org/plugins/ewww-image-optimizer/",
+            "type": "free-tier",
+            "desc": "Local optimisation with no API cost; the CDN and premium compression are paid."
+        },
+        {
+            "name": "Core WebP + a CDN",
+            "url": "https://wordpress.org/",
+            "type": "free-tier",
+            "desc": "WordPress handles WebP natively now and most CDNs optimise images at the edge."
+        }
+    ],
+    "crossRef": [],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $80/yr",
+        "priceYearly": 80,
+        "liveSites": 288554,
+        "codeShare": 30,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": null,
-  "reviewedOn": "2026-08-08"
 }

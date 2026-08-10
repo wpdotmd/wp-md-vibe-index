@@ -1,41 +1,49 @@
 {
-  "slug": "shortpixel",
-  "name": "ShortPixel",
-  "moat": 70,
-  "moatTags": [
-    "service",
-    "updates",
-    "support"
-  ],
-  "verdict": "no",
-  "build": "weekend",
-  "upkeepHoursPerYear": 8,
-  "buildHours": 6,
-  "couldBuild": "The same shape as any optimiser: compress on upload, generate modern formats, bulk-process the back catalogue, keep the originals.",
-  "stillMissing": "Identical to EWWW, and for the same reason — the compression runs on their servers and is metered in credits because it genuinely costs them per image. Rebuilding the plugin gets you a client with nothing behind it; matching the product means paying for compute either way.",
-  "requirements": [
-    "Compression on upload with a lossy/lossless choice",
-    "Bulk optimisation of an existing library without timing out",
-    "WebP and AVIF generation and delivery",
-    "Originals retained so it can be undone",
-    "Credit or quota accounting the site owner can see"
-  ],
-  "confidence": "medium",
-  "alternatives": [
-    {
-      "name": "ShortPixel (free)",
-      "url": "https://wordpress.org/plugins/shortpixel-image-optimiser/",
-      "type": "free-tier",
-      "desc": "A free monthly credit allowance, enough for small or slow-moving sites."
-    },
-    {
-      "name": "Squoosh / local tooling",
-      "url": "https://squoosh.app/",
-      "type": "open-source",
-      "desc": "Free encoders you run yourself if you are willing to own the pipeline."
+    "slug": "shortpixel",
+    "name": "ShortPixel",
+    "moat": 70,
+    "moatTags": [
+        "service",
+        "updates",
+        "support"
+    ],
+    "verdict": "no",
+    "build": "weekend",
+    "upkeepHoursPerYear": 8,
+    "buildHours": 6,
+    "couldBuild": "The same shape as any optimiser: compress on upload, generate modern formats, bulk-process the back catalogue, keep the originals.",
+    "stillMissing": "Identical to EWWW, and for the same reason — the compression runs on their servers and is metered in credits because it genuinely costs them per image. Rebuilding the plugin gets you a client with nothing behind it; matching the product means paying for compute either way.",
+    "requirements": [
+        "Compression on upload with a lossy/lossless choice",
+        "Bulk optimisation of an existing library without timing out",
+        "WebP and AVIF generation and delivery",
+        "Originals retained so it can be undone",
+        "Credit or quota accounting the site owner can see"
+    ],
+    "confidence": "medium",
+    "alternatives": [
+        {
+            "name": "ShortPixel (free)",
+            "url": "https://wordpress.org/plugins/shortpixel-image-optimiser/",
+            "type": "free-tier",
+            "desc": "A free monthly credit allowance, enough for small or slow-moving sites."
+        },
+        {
+            "name": "Squoosh / local tooling",
+            "url": "https://squoosh.app/",
+            "type": "open-source",
+            "desc": "Free encoders you run yourself if you are willing to own the pipeline."
+        }
+    ],
+    "crossRef": [],
+    "notes": "Scored alongside EWWW deliberately: same service moat, different brand.",
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $8.33/mo",
+        "priceYearly": 99.96000000000001,
+        "liveSites": 125049,
+        "codeShare": 30,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": "Scored alongside EWWW deliberately: same service moat, different brand.",
-  "reviewedOn": "2026-08-08"
 }

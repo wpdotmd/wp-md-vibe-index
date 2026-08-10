@@ -1,42 +1,50 @@
 {
-  "slug": "wpml",
-  "name": "WPML",
-  "moat": 72,
-  "moatTags": [
-    "network",
-    "updates",
-    "support",
-    "library"
-  ],
-  "verdict": "no",
-  "build": "weekends",
-  "upkeepHoursPerYear": 15,
-  "buildHours": 16,
-  "couldBuild": "A second post per language linked to the original, a language switcher, and translated permalinks. For a brochure site that genuinely works.",
-  "stillMissing": "WPML's job is not translating your posts — it is translating everyone else's plugin. Strings registered by themes, WooCommerce product attributes and variations, ACF field values, menus, taxonomies, slugs and sitemaps all have to keep working, and each vendor changes their storage whenever they like. The compatibility matrix is the product, and it is the reason this scores where it does despite the core idea being simple.",
-  "requirements": [
-    "Per-language content linked as translations, with a switcher",
-    "Translated permalinks, menus and taxonomy terms",
-    "String translation for strings registered by themes and other plugins",
-    "WooCommerce coverage: products, attributes, variations, checkout",
-    "hreflang and per-language sitemaps that search engines accept"
-  ],
-  "confidence": "medium",
-  "alternatives": [
-    {
-      "name": "Polylang",
-      "url": "https://wordpress.org/plugins/polylang/",
-      "type": "free-tier",
-      "desc": "A capable free multilingual plugin; the Pro tier adds slugs and integrations."
-    },
-    {
-      "name": "TranslatePress",
-      "url": "https://translatepress.com/",
-      "type": "alternative",
-      "desc": "Visual front-end translation, often simpler for smaller sites."
+    "slug": "wpml",
+    "name": "WPML",
+    "moat": 72,
+    "moatTags": [
+        "network",
+        "updates",
+        "support",
+        "library"
+    ],
+    "verdict": "no",
+    "build": "weekends",
+    "upkeepHoursPerYear": 15,
+    "buildHours": 16,
+    "couldBuild": "A second post per language linked to the original, a language switcher, and translated permalinks. For a brochure site that genuinely works.",
+    "stillMissing": "WPML's job is not translating your posts — it is translating everyone else's plugin. Strings registered by themes, WooCommerce product attributes and variations, ACF field values, menus, taxonomies, slugs and sitemaps all have to keep working, and each vendor changes their storage whenever they like. The compatibility matrix is the product, and it is the reason this scores where it does despite the core idea being simple.",
+    "requirements": [
+        "Per-language content linked as translations, with a switcher",
+        "Translated permalinks, menus and taxonomy terms",
+        "String translation for strings registered by themes and other plugins",
+        "WooCommerce coverage: products, attributes, variations, checkout",
+        "hreflang and per-language sitemaps that search engines accept"
+    ],
+    "confidence": "medium",
+    "alternatives": [
+        {
+            "name": "Polylang",
+            "url": "https://wordpress.org/plugins/polylang/",
+            "type": "free-tier",
+            "desc": "A capable free multilingual plugin; the Pro tier adds slugs and integrations."
+        },
+        {
+            "name": "TranslatePress",
+            "url": "https://translatepress.com/",
+            "type": "alternative",
+            "desc": "Visual front-end translation, often simpler for smaller sites."
+        }
+    ],
+    "crossRef": [],
+    "notes": "Not detected under the name 'WPML' — BuiltWith files it as 'WPML Multilingual'.",
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "Blog from €39/yr",
+        "priceYearly": 39,
+        "liveSites": 653547,
+        "codeShare": 28,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": "Not detected under the name 'WPML' — BuiltWith files it as 'WPML Multilingual'.",
-  "reviewedOn": "2026-08-08"
 }

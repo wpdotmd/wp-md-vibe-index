@@ -1,48 +1,56 @@
 {
-  "slug": "wp-recipe-maker",
-  "name": "WP Recipe Maker",
-  "moat": 46,
-  "moatTags": [
-    "data",
-    "updates",
-    "support",
-    "library"
-  ],
-  "verdict": "kinda",
-  "build": "weekend",
-  "upkeepHoursPerYear": 8,
-  "buildHours": 6,
-  "couldBuild": "A recipe field set, a card template, print and jump-to-recipe links, and valid JSON-LD in the head. This is an evening's work and the output looks finished.",
-  "stillMissing": "Rich-result eligibility is the entire commercial point for a food blog, and Google keeps moving what qualifies — that is somebody tracking search documentation for you, indefinitely. Nutrition calculation needs a food database nobody is going to hand you, and unit conversion, scaling and ratings each carry more edge cases than they look like they do.",
-  "requirements": [
-    "Recipe post meta: ingredients, instructions, times, yield, images",
-    "JSON-LD output that validates against Google's Recipe schema",
-    "Print view and jump-to-recipe that work from any theme's template",
-    "Unit conversion and serving-size scaling of ingredient quantities",
-    "User ratings feeding aggregateRating in the structured data"
-  ],
-  "confidence": "medium",
-  "alternatives": [
-    {
-      "name": "WP Recipe Maker (free)",
-      "url": "https://wordpress.org/plugins/wp-recipe-maker/",
-      "type": "free-tier",
-      "desc": "Cards and valid schema are free; nutrition, SEO and templates are the paid tiers."
-    },
-    {
-      "name": "Tasty Recipes",
-      "url": "https://www.wptasty.com/tasty-recipes",
-      "type": "alternative",
-      "desc": "The other established food-blogger recipe plugin, licence only."
-    },
-    {
-      "name": "Cooked",
-      "url": "https://wordpress.org/plugins/cooked/",
-      "type": "free-tier",
-      "desc": "A lighter free recipe plugin if you do not need the SEO surface."
+    "slug": "wp-recipe-maker",
+    "name": "WP Recipe Maker",
+    "moat": 46,
+    "moatTags": [
+        "data",
+        "updates",
+        "support",
+        "library"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 8,
+    "buildHours": 6,
+    "couldBuild": "A recipe field set, a card template, print and jump-to-recipe links, and valid JSON-LD in the head. This is an evening's work and the output looks finished.",
+    "stillMissing": "Rich-result eligibility is the entire commercial point for a food blog, and Google keeps moving what qualifies — that is somebody tracking search documentation for you, indefinitely. Nutrition calculation needs a food database nobody is going to hand you, and unit conversion, scaling and ratings each carry more edge cases than they look like they do.",
+    "requirements": [
+        "Recipe post meta: ingredients, instructions, times, yield, images",
+        "JSON-LD output that validates against Google's Recipe schema",
+        "Print view and jump-to-recipe that work from any theme's template",
+        "Unit conversion and serving-size scaling of ingredient quantities",
+        "User ratings feeding aggregateRating in the structured data"
+    ],
+    "confidence": "medium",
+    "alternatives": [
+        {
+            "name": "WP Recipe Maker (free)",
+            "url": "https://wordpress.org/plugins/wp-recipe-maker/",
+            "type": "free-tier",
+            "desc": "Cards and valid schema are free; nutrition, SEO and templates are the paid tiers."
+        },
+        {
+            "name": "Tasty Recipes",
+            "url": "https://www.wptasty.com/tasty-recipes",
+            "type": "alternative",
+            "desc": "The other established food-blogger recipe plugin, licence only."
+        },
+        {
+            "name": "Cooked",
+            "url": "https://wordpress.org/plugins/cooked/",
+            "type": "free-tier",
+            "desc": "A lighter free recipe plugin if you do not need the SEO surface."
+        }
+    ],
+    "crossRef": [],
+    "notes": "Added v2.55.0 after BuiltWith detection was wired up — it ranks #37 by live sites, comfortably inside the premium top 50.",
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "Premium from €49/yr",
+        "priceYearly": 49,
+        "liveSites": 45389,
+        "codeShare": 54,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": "Added v2.55.0 after BuiltWith detection was wired up — it ranks #37 by live sites, comfortably inside the premium top 50.",
-  "reviewedOn": "2026-08-08"
 }

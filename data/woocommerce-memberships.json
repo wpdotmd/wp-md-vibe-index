@@ -1,41 +1,49 @@
 {
-  "slug": "woocommerce-memberships",
-  "name": "WooCommerce Memberships",
-  "moat": 56,
-  "moatTags": [
-    "network",
-    "updates",
-    "support"
-  ],
-  "verdict": "kinda",
-  "build": "weekends",
-  "upkeepHoursPerYear": 12,
-  "buildHours": 16,
-  "couldBuild": "Membership plans granted by product purchase, content restriction rules and a drip schedule keyed to the join date.",
-  "stillMissing": "It only makes sense welded to WooCommerce and usually Subscriptions too, so you inherit that compatibility surface — every Woo release, every gateway, every theme's account-page override. The plugin is small; the matrix around it is not.",
-  "requirements": [
-    "Plans granted by purchase, manual assignment or registration",
-    "Content restriction across posts, taxonomies and products",
-    "Drip scheduling relative to the member's own start date",
-    "Member discounts applied correctly at cart and checkout",
-    "Account area showing plan status and what it unlocks"
-  ],
-  "confidence": "medium",
-  "alternatives": [
-    {
-      "name": "Paid Memberships Pro",
-      "url": "https://wordpress.org/plugins/paid-memberships-pro/",
-      "type": "free-tier",
-      "desc": "Free core that covers restriction and levels without WooCommerce."
-    },
-    {
-      "name": "Restrict Content",
-      "url": "https://wordpress.org/plugins/restrict-content/",
-      "type": "free-tier",
-      "desc": "Simple content gating when you do not need commerce attached."
+    "slug": "woocommerce-memberships",
+    "name": "WooCommerce Memberships",
+    "moat": 56,
+    "moatTags": [
+        "network",
+        "updates",
+        "support"
+    ],
+    "verdict": "kinda",
+    "build": "weekends",
+    "upkeepHoursPerYear": 12,
+    "buildHours": 16,
+    "couldBuild": "Membership plans granted by product purchase, content restriction rules and a drip schedule keyed to the join date.",
+    "stillMissing": "It only makes sense welded to WooCommerce and usually Subscriptions too, so you inherit that compatibility surface — every Woo release, every gateway, every theme's account-page override. The plugin is small; the matrix around it is not.",
+    "requirements": [
+        "Plans granted by purchase, manual assignment or registration",
+        "Content restriction across posts, taxonomies and products",
+        "Drip scheduling relative to the member's own start date",
+        "Member discounts applied correctly at cart and checkout",
+        "Account area showing plan status and what it unlocks"
+    ],
+    "confidence": "medium",
+    "alternatives": [
+        {
+            "name": "Paid Memberships Pro",
+            "url": "https://wordpress.org/plugins/paid-memberships-pro/",
+            "type": "free-tier",
+            "desc": "Free core that covers restriction and levels without WooCommerce."
+        },
+        {
+            "name": "Restrict Content",
+            "url": "https://wordpress.org/plugins/restrict-content/",
+            "type": "free-tier",
+            "desc": "Simple content gating when you do not need commerce attached."
+        }
+    ],
+    "crossRef": [],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "",
+        "priceYearly": 0,
+        "liveSites": 24893,
+        "codeShare": 44,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": null,
-  "reviewedOn": "2026-08-08"
 }

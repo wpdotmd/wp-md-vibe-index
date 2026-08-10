@@ -1,41 +1,49 @@
 {
-  "slug": "download-monitor",
-  "name": "Download Monitor",
-  "moat": 40,
-  "moatTags": [
-    "updates",
-    "support",
-    "network"
-  ],
-  "verdict": "kinda",
-  "build": "weekend",
-  "upkeepHoursPerYear": 8,
-  "buildHours": 6,
-  "couldBuild": "Files behind a post type, download counting, versioned files and a shortcode. Genuinely straightforward, and the free plugin already does it.",
-  "stillMissing": "The paid half is gating and abuse: email-gated downloads wired to your mailing list, bot and hotlink defence that does not also block real users, and per-user access rules. Useful, but a smaller gap than most of this index.",
-  "requirements": [
-    "Download post type with versioning and access logging",
-    "Gated downloads collecting an email into your mailing list",
-    "Bot, hotlink and abuse protection on the download endpoint",
-    "Per-role or per-member access restriction",
-    "Reporting on downloads over time"
-  ],
-  "confidence": "low",
-  "alternatives": [
-    {
-      "name": "Download Monitor (free)",
-      "url": "https://wordpress.org/plugins/download-monitor/",
-      "type": "free-tier",
-      "desc": "Files, versioning and counting free; gating and analytics are the paid extensions."
-    },
-    {
-      "name": "WordPress media library",
-      "url": "https://wordpress.org/",
-      "type": "free-tier",
-      "desc": "For ungated files a plain media link and a counter plugin often suffice."
+    "slug": "download-monitor",
+    "name": "Download Monitor",
+    "moat": 40,
+    "moatTags": [
+        "updates",
+        "support",
+        "network"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 8,
+    "buildHours": 6,
+    "couldBuild": "Files behind a post type, download counting, versioned files and a shortcode. Genuinely straightforward, and the free plugin already does it.",
+    "stillMissing": "The paid half is gating and abuse: email-gated downloads wired to your mailing list, bot and hotlink defence that does not also block real users, and per-user access rules. Useful, but a smaller gap than most of this index.",
+    "requirements": [
+        "Download post type with versioning and access logging",
+        "Gated downloads collecting an email into your mailing list",
+        "Bot, hotlink and abuse protection on the download endpoint",
+        "Per-role or per-member access restriction",
+        "Reporting on downloads over time"
+    ],
+    "confidence": "low",
+    "alternatives": [
+        {
+            "name": "Download Monitor (free)",
+            "url": "https://wordpress.org/plugins/download-monitor/",
+            "type": "free-tier",
+            "desc": "Files, versioning and counting free; gating and analytics are the paid extensions."
+        },
+        {
+            "name": "WordPress media library",
+            "url": "https://wordpress.org/",
+            "type": "free-tier",
+            "desc": "For ungated files a plain media link and a counter plugin often suffice."
+        }
+    ],
+    "crossRef": [],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $69/yr",
+        "priceYearly": 69,
+        "liveSites": 79716,
+        "codeShare": 60,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": null,
-  "reviewedOn": "2026-08-08"
 }

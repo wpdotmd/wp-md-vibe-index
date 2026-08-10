@@ -1,41 +1,49 @@
 {
-  "slug": "wp-grid-builder",
-  "name": "WP Grid Builder",
-  "moat": 36,
-  "moatTags": [
-    "updates",
-    "support",
-    "library"
-  ],
-  "verdict": "kinda",
-  "build": "weekend",
-  "upkeepHoursPerYear": 8,
-  "buildHours": 6,
-  "couldBuild": "Faceted filtering over WP_Query with AJAX refresh, plus a grid layout with card templates. The query layer is well-trodden ground.",
-  "stillMissing": "Facet counts that stay correct as other facets narrow the set, and staying fast on a large catalogue — that is an indexing problem, not a query problem. Then the integrations with every builder and custom-fields plugin people expect it to read.",
-  "requirements": [
-    "Facet types: checkbox, range, select, search, with combinable state",
-    "Correct result counts as facets interact, not just naive counts",
-    "An index or cache so filtering stays fast past a few thousand posts",
-    "URL state so a filtered view can be shared and indexed",
-    "Grid layouts with card templates and responsive columns"
-  ],
-  "confidence": "low",
-  "alternatives": [
-    {
-      "name": "FacetWP",
-      "url": "https://facetwp.com/",
-      "type": "alternative",
-      "desc": "The other established faceted-search plugin for WordPress."
-    },
-    {
-      "name": "SearchWP",
-      "url": "https://searchwp.com/",
-      "type": "alternative",
-      "desc": "Relevance-focused rather than facet-focused; often paired with one."
+    "slug": "wp-grid-builder",
+    "name": "WP Grid Builder",
+    "moat": 36,
+    "moatTags": [
+        "updates",
+        "support",
+        "library"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 8,
+    "buildHours": 6,
+    "couldBuild": "Faceted filtering over WP_Query with AJAX refresh, plus a grid layout with card templates. The query layer is well-trodden ground.",
+    "stillMissing": "Facet counts that stay correct as other facets narrow the set, and staying fast on a large catalogue — that is an indexing problem, not a query problem. Then the integrations with every builder and custom-fields plugin people expect it to read.",
+    "requirements": [
+        "Facet types: checkbox, range, select, search, with combinable state",
+        "Correct result counts as facets interact, not just naive counts",
+        "An index or cache so filtering stays fast past a few thousand posts",
+        "URL state so a filtered view can be shared and indexed",
+        "Grid layouts with card templates and responsive columns"
+    ],
+    "confidence": "low",
+    "alternatives": [
+        {
+            "name": "FacetWP",
+            "url": "https://facetwp.com/",
+            "type": "alternative",
+            "desc": "The other established faceted-search plugin for WordPress."
+        },
+        {
+            "name": "SearchWP",
+            "url": "https://searchwp.com/",
+            "type": "alternative",
+            "desc": "Relevance-focused rather than facet-focused; often paired with one."
+        }
+    ],
+    "crossRef": [],
+    "notes": "Low confidence: the smallest install base in the index, so there is less public evidence about where people actually hit its limits.",
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $49/yr",
+        "priceYearly": 49,
+        "liveSites": 4233,
+        "codeShare": 64,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": "Low confidence: the smallest install base in the index, so there is less public evidence about where people actually hit its limits.",
-  "reviewedOn": "2026-08-08"
 }

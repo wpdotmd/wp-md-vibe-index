@@ -1,41 +1,49 @@
 {
-  "slug": "wpdatatables",
-  "name": "wpDataTables",
-  "moat": 30,
-  "moatTags": [
-    "updates",
-    "support",
-    "library"
-  ],
-  "verdict": "yes",
-  "build": "weekend",
-  "upkeepHoursPerYear": 8,
-  "buildHours": 6,
-  "couldBuild": "Tables from CSV, Excel, Google Sheets or a SQL query, with sorting, filtering, pagination and a chart on top. Mostly a wrapper over well-known JS libraries.",
-  "stillMissing": "Front-end editable tables writing back to a live database is the genuinely risky part — permissions, validation and concurrent edits. Everything else is scope: chart engines, formulas, conditional formatting and the import matrix.",
-  "requirements": [
-    "Table sources: manual, CSV/Excel upload, Google Sheets and SQL query",
-    "Server-side processing so large tables stay responsive",
-    "Sorting, multi-column filtering and per-column search",
-    "Charts bound to a table's live data",
-    "Conditional formatting rules per column"
-  ],
-  "confidence": "low",
-  "alternatives": [
-    {
-      "name": "TablePress",
-      "url": "https://wordpress.org/plugins/tablepress/",
-      "type": "free-tier",
-      "desc": "The long-standing free table plugin; premium extensions are optional."
-    },
-    {
-      "name": "Ninja Tables",
-      "url": "https://wordpress.org/plugins/ninja-tables/",
-      "type": "free-tier",
-      "desc": "A capable free tier with paid charting and integrations."
+    "slug": "wpdatatables",
+    "name": "wpDataTables",
+    "moat": 30,
+    "moatTags": [
+        "updates",
+        "support",
+        "library"
+    ],
+    "verdict": "yes",
+    "build": "weekend",
+    "upkeepHoursPerYear": 8,
+    "buildHours": 6,
+    "couldBuild": "Tables from CSV, Excel, Google Sheets or a SQL query, with sorting, filtering, pagination and a chart on top. Mostly a wrapper over well-known JS libraries.",
+    "stillMissing": "Front-end editable tables writing back to a live database is the genuinely risky part — permissions, validation and concurrent edits. Everything else is scope: chart engines, formulas, conditional formatting and the import matrix.",
+    "requirements": [
+        "Table sources: manual, CSV/Excel upload, Google Sheets and SQL query",
+        "Server-side processing so large tables stay responsive",
+        "Sorting, multi-column filtering and per-column search",
+        "Charts bound to a table's live data",
+        "Conditional formatting rules per column"
+    ],
+    "confidence": "low",
+    "alternatives": [
+        {
+            "name": "TablePress",
+            "url": "https://wordpress.org/plugins/tablepress/",
+            "type": "free-tier",
+            "desc": "The long-standing free table plugin; premium extensions are optional."
+        },
+        {
+            "name": "Ninja Tables",
+            "url": "https://wordpress.org/plugins/ninja-tables/",
+            "type": "free-tier",
+            "desc": "A capable free tier with paid charting and integrations."
+        }
+    ],
+    "crossRef": [],
+    "notes": "Sold as a one-off CodeCanyon licence, so the yearly figure the money model uses is the price amortised over three years.",
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "$299",
+        "priceYearly": 0,
+        "liveSites": 27458,
+        "codeShare": 70,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": "Sold as a one-off CodeCanyon licence, so the yearly figure the money model uses is the price amortised over three years.",
-  "reviewedOn": "2026-08-08"
 }

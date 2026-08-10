@@ -1,41 +1,49 @@
 {
-  "slug": "elementskit",
-  "name": "ElementsKit",
-  "moat": 36,
-  "moatTags": [
-    "library",
-    "updates",
-    "support"
-  ],
-  "verdict": "kinda",
-  "build": "weekend",
-  "upkeepHoursPerYear": 10,
-  "buildHours": 6,
-  "couldBuild": "The four or five widgets you actually place, registered against Elementor's widget API, plus a header/footer builder and a mega-menu widget.",
-  "stillMissing": "Nobody buys an addon pack for four widgets. The product is 68 widgets and 500+ prebuilt sections, and the real cost is that they must all keep working through every Elementor release — a dependency that breaks on somebody else's schedule.",
-  "requirements": [
-    "Widget registration against Elementor's API with live editing controls",
-    "Header and footer builder with display conditions",
-    "Mega-menu widget driven by WordPress menus",
-    "A section/template library users can insert and edit",
-    "Compatibility passes against each Elementor release"
-  ],
-  "confidence": "medium",
-  "alternatives": [
-    {
-      "name": "ElementsKit Lite",
-      "url": "https://wordpress.org/plugins/elementskit-lite/",
-      "type": "free-tier",
-      "desc": "A large free widget set; the header builder and most sections are paid."
-    },
-    {
-      "name": "Essential Addons",
-      "url": "https://wordpress.org/plugins/essential-addons-for-elementor-lite/",
-      "type": "free-tier",
-      "desc": "The other big Elementor addon pack, also generous for free."
+    "slug": "elementskit",
+    "name": "ElementsKit",
+    "moat": 36,
+    "moatTags": [
+        "library",
+        "updates",
+        "support"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 10,
+    "buildHours": 6,
+    "couldBuild": "The four or five widgets you actually place, registered against Elementor's widget API, plus a header/footer builder and a mega-menu widget.",
+    "stillMissing": "Nobody buys an addon pack for four widgets. The product is 68 widgets and 500+ prebuilt sections, and the real cost is that they must all keep working through every Elementor release — a dependency that breaks on somebody else's schedule.",
+    "requirements": [
+        "Widget registration against Elementor's API with live editing controls",
+        "Header and footer builder with display conditions",
+        "Mega-menu widget driven by WordPress menus",
+        "A section/template library users can insert and edit",
+        "Compatibility passes against each Elementor release"
+    ],
+    "confidence": "medium",
+    "alternatives": [
+        {
+            "name": "ElementsKit Lite",
+            "url": "https://wordpress.org/plugins/elementskit-lite/",
+            "type": "free-tier",
+            "desc": "A large free widget set; the header builder and most sections are paid."
+        },
+        {
+            "name": "Essential Addons",
+            "url": "https://wordpress.org/plugins/essential-addons-for-elementor-lite/",
+            "type": "free-tier",
+            "desc": "The other big Elementor addon pack, also generous for free."
+        }
+    ],
+    "crossRef": [],
+    "notes": null,
+    "reviewedOn": "2026-08-09",
+    "derived": {
+        "priceLabel": "from $39/yr",
+        "priceYearly": 39,
+        "liveSites": 1522146,
+        "codeShare": 64,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": null,
-  "reviewedOn": "2026-08-09"
 }

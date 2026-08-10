@@ -1,41 +1,49 @@
 {
-  "slug": "cartflows",
-  "name": "CartFlows",
-  "moat": 48,
-  "moatTags": [
-    "network",
-    "library",
-    "updates"
-  ],
-  "verdict": "kinda",
-  "build": "weekend",
-  "upkeepHoursPerYear": 10,
-  "buildHours": 6,
-  "couldBuild": "Custom checkout templates, order bumps and a one-click upsell step after payment. Mechanically it is a flow of WooCommerce pages you control.",
-  "stillMissing": "One-click upsells mean charging a saved payment method after the order completes, which each gateway supports differently and some barely support at all. Plus the template library and keeping step templates working against every builder.",
-  "requirements": [
-    "Multi-step flows with checkout, upsell and thank-you pages",
-    "Order bumps rendered and priced correctly at checkout",
-    "Post-purchase charges against the stored payment method, per gateway",
-    "Conversion tracking per step so the funnel can be read",
-    "A starting template library across the common page builders"
-  ],
-  "confidence": "medium",
-  "alternatives": [
-    {
-      "name": "CartFlows (free)",
-      "url": "https://wordpress.org/plugins/cartflows/",
-      "type": "free-tier",
-      "desc": "Flows and checkout templates; upsells and bumps are the paid part."
-    },
-    {
-      "name": "WooCommerce blocks checkout",
-      "url": "https://wordpress.org/plugins/woocommerce/",
-      "type": "free-tier",
-      "desc": "Core checkout is customisable enough for many stores now."
+    "slug": "cartflows",
+    "name": "CartFlows",
+    "moat": 48,
+    "moatTags": [
+        "network",
+        "library",
+        "updates"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 10,
+    "buildHours": 6,
+    "couldBuild": "Custom checkout templates, order bumps and a one-click upsell step after payment. Mechanically it is a flow of WooCommerce pages you control.",
+    "stillMissing": "One-click upsells mean charging a saved payment method after the order completes, which each gateway supports differently and some barely support at all. Plus the template library and keeping step templates working against every builder.",
+    "requirements": [
+        "Multi-step flows with checkout, upsell and thank-you pages",
+        "Order bumps rendered and priced correctly at checkout",
+        "Post-purchase charges against the stored payment method, per gateway",
+        "Conversion tracking per step so the funnel can be read",
+        "A starting template library across the common page builders"
+    ],
+    "confidence": "medium",
+    "alternatives": [
+        {
+            "name": "CartFlows (free)",
+            "url": "https://wordpress.org/plugins/cartflows/",
+            "type": "free-tier",
+            "desc": "Flows and checkout templates; upsells and bumps are the paid part."
+        },
+        {
+            "name": "WooCommerce blocks checkout",
+            "url": "https://wordpress.org/plugins/woocommerce/",
+            "type": "free-tier",
+            "desc": "Core checkout is customisable enough for many stores now."
+        }
+    ],
+    "crossRef": [],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "",
+        "priceYearly": 0,
+        "liveSites": 13672,
+        "codeShare": 52,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": null,
-  "reviewedOn": "2026-08-08"
 }

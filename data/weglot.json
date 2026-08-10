@@ -10,6 +10,7 @@
     "verdict": "never",
     "build": "weekend",
     "upkeepHoursPerYear": 7,
+    "buildHours": 6,
     "couldBuild": "String extraction, a language switcher and a translation table.",
     "stillMissing": "The product is hosted translation plus per-language subdomains they serve and index. You would be rebuilding the switcher and then paying a translation API anyway.",
     "requirements": [
@@ -19,16 +20,6 @@
         "A translation editor in the admin for correcting machine output",
         "Correct canonical/hreflang handling so the alternates actually index"
     ],
-    "notes": null,
-    "reviewedOn": "2026-08-08",
-    "derived": {
-        "priceLabel": "from €15/mo",
-        "priceYearly": 180,
-        "liveSites": 110237,
-        "codeShare": 10,
-        "generatedOn": "2026-08-08",
-        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
-    },
     "confidence": "high",
     "alternatives": [
         {
@@ -52,5 +43,14 @@
             "note": "Rated 'no' with high confidence there. We agree — it's a hosted service wearing a plugin."
         }
     ],
-    "buildHours": 6
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from €15/mo",
+        "priceYearly": 180,
+        "liveSites": 110237,
+        "codeShare": 10,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
 }

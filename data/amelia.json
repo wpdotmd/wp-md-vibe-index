@@ -9,6 +9,7 @@
     "verdict": "kinda",
     "build": "weekend",
     "upkeepHoursPerYear": 9,
+    "buildHours": 6,
     "couldBuild": "Appointment and event booking over a resource model.",
     "stillMissing": "Google/Outlook sync, payment capture and recurring appointments — integration work, endlessly.",
     "requirements": [
@@ -17,16 +18,6 @@
         "Customer panel for rescheduling and cancelling",
         "Calendar sync and payment capture"
     ],
-    "notes": null,
-    "reviewedOn": "2026-08-08",
-    "derived": {
-        "priceLabel": "",
-        "priceYearly": 0,
-        "liveSites": 50594,
-        "codeShare": 52,
-        "generatedOn": "2026-08-08",
-        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
-    },
     "confidence": "low",
     "alternatives": [
         {
@@ -37,5 +28,14 @@
         }
     ],
     "crossRef": [],
-    "buildHours": 6
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "",
+        "priceYearly": 0,
+        "liveSites": 50594,
+        "codeShare": 52,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
 }

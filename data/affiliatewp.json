@@ -1,42 +1,50 @@
 {
-  "slug": "affiliatewp",
-  "name": "AffiliateWP",
-  "moat": 60,
-  "moatTags": [
-    "network",
-    "service",
-    "updates",
-    "support"
-  ],
-  "verdict": "no",
-  "build": "weekends",
-  "upkeepHoursPerYear": 12,
-  "buildHours": 16,
-  "couldBuild": "Referral links with a tracking cookie, an affiliate registration form, commission records written on each order, and a dashboard showing what is owed.",
-  "stillMissing": "Paying people is where it stops being a plugin. Bulk payouts to real bank accounts, tax forms, fraud and self-referral detection, and cross-device attribution that survives ad blockers. Add integrations with whichever ecommerce plugin you use, each with its own refund semantics that have to claw commissions back.",
-  "requirements": [
-    "Referral tracking that survives across devices and common blockers",
-    "Affiliate registration, approval and a self-service dashboard",
-    "Commission rules per product, per affiliate and per tier",
-    "Payouts, including reversal when an order is refunded",
-    "Integration with your store plugin's order lifecycle"
-  ],
-  "confidence": "medium",
-  "alternatives": [
-    {
-      "name": "SliceWP",
-      "url": "https://wordpress.org/plugins/slicewp/",
-      "type": "free-tier",
-      "desc": "A free affiliate plugin covering tracking and commissions for simpler programmes."
-    },
-    {
-      "name": "Rewardful / PartnerStack",
-      "url": "https://www.rewardful.com/",
-      "type": "alternative",
-      "desc": "Hosted affiliate platforms that own payouts and compliance for you."
+    "slug": "affiliatewp",
+    "name": "AffiliateWP",
+    "moat": 60,
+    "moatTags": [
+        "network",
+        "service",
+        "updates",
+        "support"
+    ],
+    "verdict": "no",
+    "build": "weekends",
+    "upkeepHoursPerYear": 12,
+    "buildHours": 16,
+    "couldBuild": "Referral links with a tracking cookie, an affiliate registration form, commission records written on each order, and a dashboard showing what is owed.",
+    "stillMissing": "Paying people is where it stops being a plugin. Bulk payouts to real bank accounts, tax forms, fraud and self-referral detection, and cross-device attribution that survives ad blockers. Add integrations with whichever ecommerce plugin you use, each with its own refund semantics that have to claw commissions back.",
+    "requirements": [
+        "Referral tracking that survives across devices and common blockers",
+        "Affiliate registration, approval and a self-service dashboard",
+        "Commission rules per product, per affiliate and per tier",
+        "Payouts, including reversal when an order is refunded",
+        "Integration with your store plugin's order lifecycle"
+    ],
+    "confidence": "medium",
+    "alternatives": [
+        {
+            "name": "SliceWP",
+            "url": "https://wordpress.org/plugins/slicewp/",
+            "type": "free-tier",
+            "desc": "A free affiliate plugin covering tracking and commissions for simpler programmes."
+        },
+        {
+            "name": "Rewardful / PartnerStack",
+            "url": "https://www.rewardful.com/",
+            "type": "alternative",
+            "desc": "Hosted affiliate platforms that own payouts and compliance for you."
+        }
+    ],
+    "crossRef": [],
+    "notes": "No free tier — the purest premium entry in the plugin index.",
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $149.50/yr",
+        "priceYearly": 149.5,
+        "liveSites": 15450,
+        "codeShare": 40,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": "No free tier — the purest premium entry in the plugin index.",
-  "reviewedOn": "2026-08-08"
 }

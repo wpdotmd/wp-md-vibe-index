@@ -1,41 +1,49 @@
 {
-  "slug": "advanced-ads",
-  "name": "Advanced Ads",
-  "moat": 38,
-  "moatTags": [
-    "updates",
-    "network",
-    "support"
-  ],
-  "verdict": "kinda",
-  "build": "weekend",
-  "upkeepHoursPerYear": 10,
-  "buildHours": 6,
-  "couldBuild": "Ad units as a post type, placement by hook or shortcode, rotation and scheduling, and simple impression counting.",
-  "stillMissing": "Placement is easy; the awkward parts are everything around it. Ad blockers, lazy loading that does not wreck viewability, consent so tags do not fire before opt-in, and the quirks of whichever network actually pays you. None of it is deep, but there is a lot of it and it changes.",
-  "requirements": [
-    "Ad units with placement by hook, shortcode and content injection",
-    "Rotation, weighting and scheduling",
-    "Targeting by post type, device and visitor state",
-    "Consent-aware loading so tags respect the cookie banner",
-    "Impression and click reporting"
-  ],
-  "confidence": "low",
-  "alternatives": [
-    {
-      "name": "Advanced Ads (free)",
-      "url": "https://wordpress.org/plugins/advanced-ads/",
-      "type": "free-tier",
-      "desc": "Placements, rotation and scheduling free; targeting and tracking are paid."
-    },
-    {
-      "name": "Google Ad Manager tags",
-      "url": "https://admanager.google.com/",
-      "type": "alternative",
-      "desc": "If one network pays you, its own tags plus a snippet plugin may be enough."
+    "slug": "advanced-ads",
+    "name": "Advanced Ads",
+    "moat": 38,
+    "moatTags": [
+        "updates",
+        "network",
+        "support"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 10,
+    "buildHours": 6,
+    "couldBuild": "Ad units as a post type, placement by hook or shortcode, rotation and scheduling, and simple impression counting.",
+    "stillMissing": "Placement is easy; the awkward parts are everything around it. Ad blockers, lazy loading that does not wreck viewability, consent so tags do not fire before opt-in, and the quirks of whichever network actually pays you. None of it is deep, but there is a lot of it and it changes.",
+    "requirements": [
+        "Ad units with placement by hook, shortcode and content injection",
+        "Rotation, weighting and scheduling",
+        "Targeting by post type, device and visitor state",
+        "Consent-aware loading so tags respect the cookie banner",
+        "Impression and click reporting"
+    ],
+    "confidence": "low",
+    "alternatives": [
+        {
+            "name": "Advanced Ads (free)",
+            "url": "https://wordpress.org/plugins/advanced-ads/",
+            "type": "free-tier",
+            "desc": "Placements, rotation and scheduling free; targeting and tracking are paid."
+        },
+        {
+            "name": "Google Ad Manager tags",
+            "url": "https://admanager.google.com/",
+            "type": "alternative",
+            "desc": "If one network pays you, its own tags plus a snippet plugin may be enough."
+        }
+    ],
+    "crossRef": [],
+    "notes": null,
+    "reviewedOn": "2026-08-09",
+    "derived": {
+        "priceLabel": "Pro from €59/yr",
+        "priceYearly": 59,
+        "liveSites": 68043,
+        "codeShare": 62,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": null,
-  "reviewedOn": "2026-08-09"
 }

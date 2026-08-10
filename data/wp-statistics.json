@@ -1,40 +1,48 @@
 {
-  "slug": "wp-statistics",
-  "name": "WP Statistics",
-  "moat": 24,
-  "moatTags": [
-    "updates",
-    "support"
-  ],
-  "verdict": "yes",
-  "build": "weekend",
-  "upkeepHoursPerYear": 8,
-  "buildHours": 6,
-  "couldBuild": "Hit logging into your own tables, bot filtering, and dashboard reports over the result. No third party is involved at any point.",
-  "stillMissing": "Almost nothing, and that is the whole point of the product: it is self-hosted by design, so there is no vendor service behind it to rebuild. What you take on is bot filtering that stays accurate, and the database growth of logging every hit on a busy site.",
-  "requirements": [
-    "Hit logging that does not slow the page or fill the database unchecked",
-    "Bot and crawler filtering that stays current",
-    "Reports: top pages, referrers, countries, over time",
-    "GeoIP resolution kept up to date locally",
-    "Data retention and pruning controls"
-  ],
-  "confidence": "medium",
-  "alternatives": [
-    {
-      "name": "WP Statistics (free)",
-      "url": "https://wordpress.org/plugins/wp-statistics/",
-      "type": "free-tier",
-      "desc": "The full analytics engine is free; premium adds add-ons and support."
-    },
-    {
-      "name": "Matomo for WordPress",
-      "url": "https://wordpress.org/plugins/matomo/",
-      "type": "open-source",
-      "desc": "Self-hosted analytics with a deeper feature set, also free."
+    "slug": "wp-statistics",
+    "name": "WP Statistics",
+    "moat": 24,
+    "moatTags": [
+        "updates",
+        "support"
+    ],
+    "verdict": "yes",
+    "build": "weekend",
+    "upkeepHoursPerYear": 8,
+    "buildHours": 6,
+    "couldBuild": "Hit logging into your own tables, bot filtering, and dashboard reports over the result. No third party is involved at any point.",
+    "stillMissing": "Almost nothing, and that is the whole point of the product: it is self-hosted by design, so there is no vendor service behind it to rebuild. What you take on is bot filtering that stays accurate, and the database growth of logging every hit on a busy site.",
+    "requirements": [
+        "Hit logging that does not slow the page or fill the database unchecked",
+        "Bot and crawler filtering that stays current",
+        "Reports: top pages, referrers, countries, over time",
+        "GeoIP resolution kept up to date locally",
+        "Data retention and pruning controls"
+    ],
+    "confidence": "medium",
+    "alternatives": [
+        {
+            "name": "WP Statistics (free)",
+            "url": "https://wordpress.org/plugins/wp-statistics/",
+            "type": "free-tier",
+            "desc": "The full analytics engine is free; premium adds add-ons and support."
+        },
+        {
+            "name": "Matomo for WordPress",
+            "url": "https://wordpress.org/plugins/matomo/",
+            "type": "open-source",
+            "desc": "Self-hosted analytics with a deeper feature set, also free."
+        }
+    ],
+    "crossRef": [],
+    "notes": "The lowest moat of any analytics product here, and for a structural reason: a plugin that deliberately phones home to nobody has no service to sell you.",
+    "reviewedOn": "2026-08-09",
+    "derived": {
+        "priceLabel": "from $119/yr",
+        "priceYearly": 119,
+        "liveSites": 332813,
+        "codeShare": 76,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": "The lowest moat of any analytics product here, and for a structural reason: a plugin that deliberately phones home to nobody has no service to sell you.",
-  "reviewedOn": "2026-08-09"
 }

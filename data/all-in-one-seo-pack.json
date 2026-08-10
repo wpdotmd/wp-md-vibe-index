@@ -10,6 +10,7 @@
     "verdict": "kinda",
     "build": "weekend",
     "upkeepHoursPerYear": 6,
+    "buildHours": 6,
     "couldBuild": "The same well-trodden on-page SEO surface as every other SEO plugin.",
     "stillMissing": "Link Assistant and the AI generators need a service behind them; the schema catalogue needs someone tracking what Google still reads.",
     "requirements": [
@@ -18,16 +19,6 @@
         "Broken-link and redirect handling",
         "Local SEO fields with opening hours and multiple locations"
     ],
-    "notes": null,
-    "reviewedOn": "2026-08-08",
-    "derived": {
-        "priceLabel": "Pro from $50/yr",
-        "priceYearly": 50,
-        "liveSites": 281092,
-        "codeShare": 45,
-        "generatedOn": "2026-08-08",
-        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
-    },
     "confidence": "medium",
     "alternatives": [
         {
@@ -45,5 +36,14 @@
             "note": "Rated 'yes · one sitting' there. Same disagreement as the other SEO entries: their own moat tag says proprietary-data."
         }
     ],
-    "buildHours": 6
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "Pro from $50/yr",
+        "priceYearly": 50,
+        "liveSites": 281092,
+        "codeShare": 45,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
 }

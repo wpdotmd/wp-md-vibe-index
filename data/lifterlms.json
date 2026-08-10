@@ -1,48 +1,56 @@
 {
-  "slug": "lifterlms",
-  "name": "LifterLMS",
-  "moat": 54,
-  "moatTags": [
-    "network",
-    "updates",
-    "support",
-    "library"
-  ],
-  "verdict": "kinda",
-  "build": "weekends",
-  "upkeepHoursPerYear": 12,
-  "buildHours": 16,
-  "couldBuild": "Courses, sections and lessons as post types, progress tracking, quizzes and a checkout that enrols the buyer.",
-  "stillMissing": "Payments and their failure modes, certificates, drip scheduling, group and bulk enrolment, plus the integrations schools expect. The core is very buildable; the tail that makes it usable for a real cohort is where the year goes.",
-  "requirements": [
-    "Course structure with sections, lessons and prerequisites",
-    "Progress tracking and completion rules per student",
-    "Quizzes with grading, attempts and pass marks",
-    "Enrolment via purchase, membership or manual assignment",
-    "Instructor and student dashboards with progress reporting"
-  ],
-  "confidence": "medium",
-  "alternatives": [
-    {
-      "name": "LifterLMS (free)",
-      "url": "https://wordpress.org/plugins/lifterlms/",
-      "type": "free-tier",
-      "desc": "The full course engine is free; add-ons cover payments and integrations."
-    },
-    {
-      "name": "TutorLMS",
-      "url": "https://wordpress.org/plugins/tutor/",
-      "type": "free-tier",
-      "desc": "Generous free tier including quizzes and a course builder."
-    },
-    {
-      "name": "LearnDash",
-      "url": "https://www.liquidweb.com/software/learndash/",
-      "type": "alternative",
-      "desc": "The other established WordPress LMS, licence-only with no free tier."
+    "slug": "lifterlms",
+    "name": "LifterLMS",
+    "moat": 54,
+    "moatTags": [
+        "network",
+        "updates",
+        "support",
+        "library"
+    ],
+    "verdict": "kinda",
+    "build": "weekends",
+    "upkeepHoursPerYear": 12,
+    "buildHours": 16,
+    "couldBuild": "Courses, sections and lessons as post types, progress tracking, quizzes and a checkout that enrols the buyer.",
+    "stillMissing": "Payments and their failure modes, certificates, drip scheduling, group and bulk enrolment, plus the integrations schools expect. The core is very buildable; the tail that makes it usable for a real cohort is where the year goes.",
+    "requirements": [
+        "Course structure with sections, lessons and prerequisites",
+        "Progress tracking and completion rules per student",
+        "Quizzes with grading, attempts and pass marks",
+        "Enrolment via purchase, membership or manual assignment",
+        "Instructor and student dashboards with progress reporting"
+    ],
+    "confidence": "medium",
+    "alternatives": [
+        {
+            "name": "LifterLMS (free)",
+            "url": "https://wordpress.org/plugins/lifterlms/",
+            "type": "free-tier",
+            "desc": "The full course engine is free; add-ons cover payments and integrations."
+        },
+        {
+            "name": "TutorLMS",
+            "url": "https://wordpress.org/plugins/tutor/",
+            "type": "free-tier",
+            "desc": "Generous free tier including quizzes and a course builder."
+        },
+        {
+            "name": "LearnDash",
+            "url": "https://www.liquidweb.com/software/learndash/",
+            "type": "alternative",
+            "desc": "The other established WordPress LMS, licence-only with no free tier."
+        }
+    ],
+    "crossRef": [],
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "",
+        "priceYearly": 0,
+        "liveSites": 7422,
+        "codeShare": 46,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": null,
-  "reviewedOn": "2026-08-08"
 }

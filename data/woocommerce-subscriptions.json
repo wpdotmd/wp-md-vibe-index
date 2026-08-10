@@ -11,6 +11,7 @@
     "verdict": "no",
     "build": "weekends",
     "upkeepHoursPerYear": 13,
+    "buildHours": 16,
     "couldBuild": "A scheduled job that recharges a stored payment token every month.",
     "stillMissing": "Then: failed-payment retries, proration, gateway tokenisation quirks, SCA, mid-cycle upgrades, tax across borders. Every one of those is somebody's revenue.",
     "requirements": [
@@ -20,16 +21,6 @@
         "Customer-facing pause, cancel, upgrade and downgrade with proration",
         "Admin views for upcoming renewals and subscription lifecycle events"
     ],
-    "notes": null,
-    "reviewedOn": "2026-08-08",
-    "derived": {
-        "priceLabel": "$199/yr",
-        "priceYearly": 199,
-        "liveSites": 36864,
-        "codeShare": 28,
-        "generatedOn": "2026-08-08",
-        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
-    },
     "confidence": "high",
     "alternatives": [
         {
@@ -40,5 +31,14 @@
         }
     ],
     "crossRef": [],
-    "buildHours": 16
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "$199/yr",
+        "priceYearly": 199,
+        "liveSites": 36864,
+        "codeShare": 28,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
 }

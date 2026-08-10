@@ -1,35 +1,43 @@
 {
-  "slug": "popup-maker",
-  "name": "Popup Maker",
-  "moat": 30,
-  "moatTags": [
-    "updates",
-    "support",
-    "library"
-  ],
-  "verdict": "yes",
-  "build": "weekend",
-  "upkeepHoursPerYear": 8,
-  "buildHours": 6,
-  "couldBuild": "A modal, a set of triggers (time, scroll, exit intent, click) and display conditions per post type. All of it is well-documented browser work.",
-  "stillMissing": "Genuinely little. Cookie handling so a dismissed popup stays dismissed, and accessibility — focus trapping and escape handling — are the parts people forget rather than the parts that are hard. This is one of the most cloneable products in the index.",
-  "requirements": [
-    "Modal with trigger rules: time, scroll depth, exit intent, click",
-    "Display conditions by post type, taxonomy and URL",
-    "Cookie rules so a dismissal persists",
-    "Focus trapping and keyboard dismissal",
-    "Conversion counts per popup"
-  ],
-  "confidence": "high",
-  "alternatives": [
-    {
-      "name": "Popup Maker (free)",
-      "url": "https://wordpress.org/plugins/popup-maker/",
-      "type": "free-tier",
-      "desc": "The full popup engine is free; the paid extensions add targeting and integrations."
+    "slug": "popup-maker",
+    "name": "Popup Maker",
+    "moat": 30,
+    "moatTags": [
+        "updates",
+        "support",
+        "library"
+    ],
+    "verdict": "yes",
+    "build": "weekend",
+    "upkeepHoursPerYear": 8,
+    "buildHours": 6,
+    "couldBuild": "A modal, a set of triggers (time, scroll, exit intent, click) and display conditions per post type. All of it is well-documented browser work.",
+    "stillMissing": "Genuinely little. Cookie handling so a dismissed popup stays dismissed, and accessibility — focus trapping and escape handling — are the parts people forget rather than the parts that are hard. This is one of the most cloneable products in the index.",
+    "requirements": [
+        "Modal with trigger rules: time, scroll depth, exit intent, click",
+        "Display conditions by post type, taxonomy and URL",
+        "Cookie rules so a dismissal persists",
+        "Focus trapping and keyboard dismissal",
+        "Conversion counts per popup"
+    ],
+    "confidence": "high",
+    "alternatives": [
+        {
+            "name": "Popup Maker (free)",
+            "url": "https://wordpress.org/plugins/popup-maker/",
+            "type": "free-tier",
+            "desc": "The full popup engine is free; the paid extensions add targeting and integrations."
+        }
+    ],
+    "crossRef": [],
+    "notes": "BuiltWith files this under \"Popup Maker for Wordpress\" — the tech named plain \"Popup Maker\" is a different, tiny product.",
+    "reviewedOn": "2026-08-09",
+    "derived": {
+        "priceLabel": "Pro from $99/yr",
+        "priceYearly": 99,
+        "liveSites": 484679,
+        "codeShare": 70,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": "BuiltWith files this under \"Popup Maker for Wordpress\" — the tech named plain \"Popup Maker\" is a different, tiny product.",
-  "reviewedOn": "2026-08-09"
 }

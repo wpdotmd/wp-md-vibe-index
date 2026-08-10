@@ -1,42 +1,50 @@
 {
-  "slug": "formidable-forms",
-  "name": "Formidable Forms",
-  "moat": 50,
-  "moatTags": [
-    "network",
-    "library",
-    "updates",
-    "support"
-  ],
-  "verdict": "kinda",
-  "build": "weekend",
-  "upkeepHoursPerYear": 10,
-  "buildHours": 6,
-  "couldBuild": "A form builder, entry storage, email notifications and conditional logic. The forms you personally need are an evening.",
-  "stillMissing": "Formidable's pitch is the layer above forms — calculations, entry views rendered as front-end tables and directories, and the integration list. Views in particular are closer to a small application builder than a form plugin, which is what separates it from the other three form products in this index.",
-  "requirements": [
-    "Drag-and-drop builder with conditional logic",
-    "Entry storage, search and export",
-    "Calculations across fields, including running totals",
-    "Front-end views that render entries as tables or directories",
-    "Integrations with your mailing list and payment provider"
-  ],
-  "confidence": "medium",
-  "alternatives": [
-    {
-      "name": "Formidable Forms (free)",
-      "url": "https://wordpress.org/plugins/formidable/",
-      "type": "free-tier",
-      "desc": "Builder and entries free; views, calculations and integrations are paid."
-    },
-    {
-      "name": "Fluent Forms",
-      "url": "https://wordpress.org/plugins/fluentform/",
-      "type": "free-tier",
-      "desc": "A fast form builder with an unusually complete free tier."
+    "slug": "formidable-forms",
+    "name": "Formidable Forms",
+    "moat": 50,
+    "moatTags": [
+        "network",
+        "library",
+        "updates",
+        "support"
+    ],
+    "verdict": "kinda",
+    "build": "weekend",
+    "upkeepHoursPerYear": 10,
+    "buildHours": 6,
+    "couldBuild": "A form builder, entry storage, email notifications and conditional logic. The forms you personally need are an evening.",
+    "stillMissing": "Formidable's pitch is the layer above forms — calculations, entry views rendered as front-end tables and directories, and the integration list. Views in particular are closer to a small application builder than a form plugin, which is what separates it from the other three form products in this index.",
+    "requirements": [
+        "Drag-and-drop builder with conditional logic",
+        "Entry storage, search and export",
+        "Calculations across fields, including running totals",
+        "Front-end views that render entries as tables or directories",
+        "Integrations with your mailing list and payment provider"
+    ],
+    "confidence": "medium",
+    "alternatives": [
+        {
+            "name": "Formidable Forms (free)",
+            "url": "https://wordpress.org/plugins/formidable/",
+            "type": "free-tier",
+            "desc": "Builder and entries free; views, calculations and integrations are paid."
+        },
+        {
+            "name": "Fluent Forms",
+            "url": "https://wordpress.org/plugins/fluentform/",
+            "type": "free-tier",
+            "desc": "A fast form builder with an unusually complete free tier."
+        }
+    ],
+    "crossRef": [],
+    "notes": null,
+    "reviewedOn": "2026-08-09",
+    "derived": {
+        "priceLabel": "Pro from $39.50/yr",
+        "priceYearly": 39.5,
+        "liveSites": 265613,
+        "codeShare": 50,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
     }
-  ],
-  "crossRef": [],
-  "notes": null,
-  "reviewedOn": "2026-08-09"
 }

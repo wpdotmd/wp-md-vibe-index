@@ -10,6 +10,7 @@
     "verdict": "kinda",
     "build": "weekends",
     "upkeepHoursPerYear": 14,
+    "buildHours": 16,
     "couldBuild": "A structure panel over raw elements with full CSS control.",
     "stillMissing": "It replaces the theme layer entirely, so every edge case in WordPress templating becomes yours to own.",
     "requirements": [
@@ -18,16 +19,6 @@
         "Reusable parts and a global stylesheet system",
         "Dynamic data binding for any post type or custom field"
     ],
-    "notes": null,
-    "reviewedOn": "2026-08-08",
-    "derived": {
-        "priceLabel": "",
-        "priceYearly": 0,
-        "liveSites": 100900,
-        "codeShare": 50,
-        "generatedOn": "2026-08-08",
-        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
-    },
     "confidence": "low",
     "alternatives": [
         {
@@ -38,5 +29,14 @@
         }
     ],
     "crossRef": [],
-    "buildHours": 16
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "",
+        "priceYearly": 0,
+        "liveSites": 100900,
+        "codeShare": 50,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
 }

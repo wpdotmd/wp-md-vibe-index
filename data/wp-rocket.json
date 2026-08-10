@@ -10,6 +10,7 @@
     "verdict": "kinda",
     "build": "weekend",
     "upkeepHoursPerYear": 10,
+    "buildHours": 6,
     "couldBuild": "Page cache, minification, lazy-loading, preloading. All documented technique.",
     "stillMissing": "The reason people pay is that it does not break checkout. Those exclusion rules are years of bug reports, and RocketCDN is a rented service.",
     "requirements": [
@@ -19,16 +20,6 @@
         "Cache preloading from the sitemap",
         "Automatic purge on content, menu and product changes"
     ],
-    "notes": null,
-    "reviewedOn": "2026-08-08",
-    "derived": {
-        "priceLabel": "from $59/yr",
-        "priceYearly": 59,
-        "liveSites": 2113033,
-        "codeShare": 56,
-        "generatedOn": "2026-08-08",
-        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
-    },
     "confidence": "high",
     "alternatives": [
         {
@@ -45,5 +36,14 @@
         }
     ],
     "crossRef": [],
-    "buildHours": 6
+    "notes": null,
+    "reviewedOn": "2026-08-08",
+    "derived": {
+        "priceLabel": "from $59/yr",
+        "priceYearly": 59,
+        "liveSites": 2113033,
+        "codeShare": 56,
+        "generatedOn": "2026-08-10",
+        "source": "ptp_premium_items() — BuiltWith + Envato, see plugin README"
+    }
 }
